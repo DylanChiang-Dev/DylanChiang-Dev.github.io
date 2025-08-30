@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: '蔣濤（Dylan Chiang）的個人學術網站 - 專注於音樂學和國家發展研究'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,12 +35,12 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "蔣濤"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} 蔣濤 版權所有。本作品採用 {license} 授權'
     license:
       enable: true
       allow_derivatives: false
