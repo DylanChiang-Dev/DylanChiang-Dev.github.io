@@ -1,16 +1,16 @@
 ---
 # Display name
-title: 吳健雄
+title: 蔣濤
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Dylan Chiang
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Dylan
+last_name: Chiang
 
 # Pronouns (optional)
-pronouns: she/her
+pronouns: he/him
 
 # Status emoji
 status:
@@ -23,167 +23,130 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: 研究生
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: 中國文化大學
+    url: https://www.pccu.edu.tw/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:dylan.chiang@example.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
   - icon: brands/linkedin
     url: https://www.linkedin.com/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 音樂學
+  - 國家發展研究
+  - 文化政策
+  - 音樂教育
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: 國家發展碩士
+    institution: 中國文化大學
+    date_start: 2020-09-01
+    date_end: 2023-06-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      專攻國家發展政策與文化研究，深入探討國家治理、政策分析與文化發展等議題。
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      主要研究領域：
+      - 國家發展理論
+      - 文化政策分析
+      - 社會發展研究
+  - area: 音樂學學士
+    institution: 長江大學
+    date_start: 2016-09-01
+    date_end: 2020-06-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      主修音樂學，涵蓋音樂理論、音樂史、音樂教育等領域。
+      
+      主要課程包括：
+      - 音樂理論與分析
+      - 中西音樂史
+      - 音樂教育學
+      - 音樂美學
+work:
+  - position: 研究助理
+    company_name: 中國文化大學
+    company_url: 'https://www.pccu.edu.tw/'
+    company_logo: ''
+    date_start: 2020-09-01
+    date_end: '2023-06-30'
+    summary: |
+      協助教授進行國家發展相關研究，參與學術活動與政策分析。
+      
+      主要工作內容：
+      - 協助進行國家發展政策研究
+      - 參與學術會議與研討會
+      - 整理研究資料與文獻分析
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 專業技能
     items:
-      - name: Python
+      - name: 音樂理論分析
+        description: ''
+        percent: 85
+        icon: musical-note
+      - name: 政策研究
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: document-text
+      - name: 學術寫作
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
+        percent: 75
+        icon: pencil
+  - name: 興趣愛好
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: 音樂演奏
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        percent: 90
+        icon: musical-note
+      - name: 閱讀
         description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        percent: 85
+        icon: book-open
+      - name: 文化活動
         description: ''
         percent: 80
-        icon: camera
+        icon: academic-cap
 
 languages:
-  - name: English
+  - name: 中文
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: 英語
+    percent: 80
+  - name: 台語
+    percent: 70
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: 優秀學生獎
+    date: '2022-06-30'
+    awarder: 中國文化大學
+    icon: academic-cap
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      因學業表現優異及積極參與學術活動，獲得中國文化大學優秀學生獎。
+  - title: 音樂學術論文獎
+    date: '2020-05-15'
+    awarder: 長江大學
+    icon: musical-note
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      畢業論文《中國傳統音樂在現代教育中的應用研究》獲得長江大學音樂學院學術論文獎。
 ---
 
-## About Me
+## 關於我
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+蔣濤（Dylan Chiang）是一位專注於音樂學和國家發展研究的學者。擁有長江大學音樂學學士學位和中國文化大學國家發展碩士學位。研究興趣包括音樂教育、文化政策分析以及國家發展理論。致力於探討音樂文化在國家發展中的作用，以及文化政策對社會發展的影響。
