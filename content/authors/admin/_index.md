@@ -42,10 +42,9 @@ profiles:
     url: https://scholar.google.com/
 
 interests:
-  - 音樂學
-  - 國家發展研究
-  - 文化政策
-  - 音樂教育
+  - 生成式人工智慧
+  - 政治工作研究
+  - 技術接受度研究
 
 education:
   - area: 國家發展碩士
@@ -53,24 +52,8 @@ education:
     date_start: 2020-09-01
     date_end: 2023-06-30
     summary: |
-      專攻國家發展政策與文化研究，深入探討國家治理、政策分析與文化發展等議題。
-      
-      主要研究領域：
-      - 國家發展理論
-      - 文化政策分析
-      - 社會發展研究
-  - area: 音樂學學士
-    institution: 長江大學
-    date_start: 2016-09-01
-    date_end: 2020-06-30
-    summary: |
-      主修音樂學，涵蓋音樂理論、音樂史、音樂教育等領域。
-      
-      主要課程包括：
-      - 音樂理論與分析
-      - 中西音樂史
-      - 音樂教育學
-      - 音樂美學
+      碩士論文：「生成式人工智慧使用行為之研究：以立法委員助理為例」
+      專攻AI技術在政治工作環境中的應用與影響分析。
 work:
   - position: 研究助理
     company_name: 中國文化大學
@@ -79,46 +62,28 @@ work:
     date_start: 2020-09-01
     date_end: '2023-06-30'
     summary: |
-      協助教授進行國家發展相關研究，參與學術活動與政策分析。
-      
-      主要工作內容：
-      - 協助進行國家發展政策研究
-      - 參與學術會議與研討會
-      - 整理研究資料與文獻分析
+      協助國家發展政策研究，參與學術活動與文獻分析。
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: 專業技能
-    items:
-      - name: 音樂理論分析
-        description: ''
-        percent: 85
-        icon: musical-note
-      - name: 政策研究
-        description: ''
-        percent: 80
-        icon: document-text
-      - name: 學術寫作
-        description: ''
-        percent: 75
-        icon: pencil
-  - name: 興趣愛好
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: 音樂演奏
-        description: ''
-        percent: 90
-        icon: musical-note
-      - name: 閱讀
-        description: ''
-        percent: 85
-        icon: book-open
-      - name: 文化活動
-        description: ''
-        percent: 80
-        icon: academic-cap
+# Add/remove as many `feature` blocks below as you like.
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+features:
+  - icon: robot
+    icon_pack: fas
+    name: AI技術研究
+    description: 85%
+  - icon: chart-line
+    icon_pack: fas
+    name: 數據分析
+    description: 90%
+  - icon: users
+    icon_pack: fas
+    name: 政治工作研究
+    description: 80%
+  - icon: code
+    icon_pack: fas
+    name: 程式設計
+    description: 80%
 
 languages:
   - name: 中文
@@ -139,14 +104,10 @@ awards:
     icon: academic-cap
     summary: |
       因學業表現優異及積極參與學術活動，獲得中國文化大學優秀學生獎。
-  - title: 音樂學術論文獎
-    date: '2020-05-15'
-    awarder: 長江大學
-    icon: musical-note
-    summary: |
-      畢業論文《中國傳統音樂在現代教育中的應用研究》獲得長江大學音樂學院學術論文獎。
 ---
 
 ## 關於我
 
-蔣濤（Dylan Chiang）是一位專注於音樂學和國家發展研究的學者。擁有長江大學音樂學學士學位和中國文化大學國家發展碩士學位。研究興趣包括音樂教育、文化政策分析以及國家發展理論。致力於探討音樂文化在國家發展中的作用，以及文化政策對社會發展的影響。
+我專注於生成式人工智慧在政治工作中的應用研究。碩士論文以立法委員助理為研究對象，探討AI技術的使用行為與接受度。
+
+研究領域涵蓋AI應用模式分析、技術接受度理論，以及政治工作環境中的技術應用。致力於理解AI如何改變政治工作模式，為公共部門的技術應用提供學術支持。
