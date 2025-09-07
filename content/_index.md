@@ -71,12 +71,12 @@ sections:
   - block: collection
     id: talks
     content:
-      title: 近期與即將到來的演講
+      title: 學術會議參與記錄
       filters:
         folders:
           - event
     design:
-      view: article-grid
+      view: compact
       columns: 1
   - block: collection
     id: news

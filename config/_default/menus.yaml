@@ -10,7 +10,7 @@ main:
   - name: 論文
     url: '/#papers'
     weight: 20
-  - name: 演講
+  - name: 會議
     url: '/#talks'
     weight: 30
   - name: 新聞
