@@ -79,6 +79,18 @@ sections:
       view: compact
       columns: 1
   - block: collection
+    id: speaking
+    content:
+      title: 演講分享
+      subtitle: '分享知識，傳遞價值'
+      text: ''
+      filters:
+        folders:
+          - talk
+    design:
+      view: card
+      columns: 2
+  - block: collection
     id: news
     content:
       title: 最新消息

@@ -13,6 +13,9 @@ main:
   - name: 會議
     url: '/#talks'
     weight: 30
+  - name: 演講
+    url: '/talk/'
+    weight: 35
   - name: 新聞
     url: '/#news'
     weight: 40
