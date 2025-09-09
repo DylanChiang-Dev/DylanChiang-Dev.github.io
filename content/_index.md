@@ -15,9 +15,9 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: 下載履歷
-        url: uploads/resume.pdf
+      # button:
+      #   text: 下載履歷
+      #   url: uploads/resume.pdf
     design:
       css_class: dark
       # Avatar customization
