@@ -18,9 +18,6 @@ resources/
 # Hugo stats
 hugo_stats.json
 
-# Go modules
-go.sum
-
 # Auto-generated JS config
 **/assets/jsconfig.json
 
@@ -55,21 +52,6 @@ node_modules/
 # Pagefind search index
 pagefind/
 static/pagefind/
-**/pagefind/
-
-# ============================================================================
-# Language & Framework Specific
-# ============================================================================
-
-# Python (for scripts)
-__pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
-*.egg-info/
-
-# Jupyter Notebooks
-.ipynb_checkpoints/
 
 # ============================================================================
 # Operating System
@@ -79,35 +61,17 @@ __pycache__/
 .DS_Store
 .DS_Store?
 ._*
-.Spotlight-V100
-.Trashes
 
 # Windows
 Thumbs.db
-ehthumbs.db
 Desktop.ini
 
 # Linux
 *~
-.nfs*
 
 # ============================================================================
 # Logs & Temporary Files
 # ============================================================================
 
-# Log files
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Temporary directories
-tmp/
-temp/
-.tmp/
