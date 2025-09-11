@@ -1,0 +1,177 @@
+/* 自定义样式 - 改善移动端显示 */
+
+/* 论文页面移动端优化 */
+.article-container {
+  @media (max-width: 768px) {
+    padding: 1rem 0.5rem;
+    
+    /* 标题优化 */
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1.3;
+      margin-bottom: 1rem;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    h2 {
+      font-size: 1.3rem;
+    }
+    
+    h3 {
+      font-size: 1.2rem;
+    }
+    
+    /* 段落文本优化 */
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      text-align: justify;
+    }
+    
+    /* 摘要和关键词优化 */
+    .article-metadata {
+      margin-bottom: 1.5rem;
+      
+      .article-metadata-item {
+        margin-bottom: 0.5rem;
+        word-wrap: break-word;
+      }
+    }
+    
+    /* 链接按钮优化 */
+    .btn-links {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      
+      .btn {
+        margin-bottom: 0.5rem;
+        font-size: 0.875rem;
+        padding: 0.375rem 0.75rem;
+      }
+    }
+    
+    /* 列表优化 */
+    ul, ol {
+      padding-left: 1.5rem;
+      
+      li {
+        margin-bottom: 0.5rem;
+        line-height: 1.5;
+        word-wrap: break-word;
+      }
+    }
+    
+    /* 表格优化 */
+    table {
+      font-size: 0.875rem;
+      
+      th, td {
+        padding: 0.5rem 0.25rem;
+        word-wrap: break-word;
+      }
+    }
+    
+    /* 代码块优化 */
+    pre {
+      font-size: 0.8rem;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    
+    /* 图片优化 */
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+    }
+    
+    /* 引用块优化 */
+    blockquote {
+      margin: 1rem 0;
+      padding: 0.5rem 1rem;
+      border-left: 3px solid #ddd;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+/* 导航栏移动端优化 */
+.navbar {
+  @media (max-width: 768px) {
+    .navbar-nav {
+      .nav-link {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+/* 页脚移动端优化 */
+.site-footer {
+  @media (max-width: 768px) {
+    padding: 1rem 0;
+    text-align: center;
+    
+    .footer-license {
+      font-size: 0.8rem;
+      line-height: 1.4;
+    }
+  }
+}
+
+/* 通用移动端文本优化 */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* 防止长单词破坏布局 */
+  * {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* 改善中文排版 */
+  .article-container {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* 特别针对长文本内容的优化 */
+.article-container .article-style {
+  @media (max-width: 768px) {
+    /* 段落间距 */
+    p + p {
+      margin-top: 1rem;
+    }
+    
+    /* 标题间距 */
+    h2, h3, h4 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    /* 改善阅读体验 */
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+  }
+}
