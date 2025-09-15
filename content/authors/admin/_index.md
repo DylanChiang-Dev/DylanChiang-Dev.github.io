@@ -28,7 +28,7 @@ role: 研究生
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: 中國文化大學
-    url: https://www.pccu.edu.tw/
+    url: https://dylanchiang-dev.github.io/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -68,23 +68,25 @@ work:
 # Add/remove as many `feature` blocks below as you like.
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 features:
-  - icon: robot
+  - icon: brain
     icon_pack: fas
     name: AI技術研究
-    description: 85%
-  - icon: chart-line
+    description: 熟練掌握生成式AI技術與應用 - 85%
+  - icon: chart-bar
     icon_pack: fas
     name: 數據分析
-    description: 90%
-  - icon: users
+    description: 精通統計分析與數據視覺化 - 90%
+  - icon: landmark
     icon_pack: fas
     name: 政治工作研究
-    description: 80%
-  - icon: code
+    description: 專精政治環境與政策分析 - 80%
+  - icon: laptop-code
     icon_pack: fas
     name: 程式設計
-    description: 80%
+    description: 熟悉多種程式語言與開發工具 - 80%
 
+# Languages
+# Add/remove as many `language` blocks below as you like.
 languages:
   - name: 中文
     percent: 100
@@ -93,10 +95,10 @@ languages:
   - name: 台語
     percent: 70
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+# Awards
+# Add/remove as many `award` blocks below as you like.
+# Only `title`, `awarder`, and `date` are required.
+# Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: 優秀學生獎
     date: '2022-06-30'
