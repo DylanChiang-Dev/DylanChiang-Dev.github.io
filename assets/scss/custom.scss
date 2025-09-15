@@ -175,3 +175,18 @@
     -moz-hyphens: auto;
   }
 }
+
+/* Skills & Hobbies 字體大小調整 */
+#skills {
+  .markdown-content {
+    font-size: 1.1rem;  /* 調整基礎字體大小 */
+    
+    h2 {
+      font-size: 1.4rem;  /* 調整標題字體大小 */
+    }
+    
+    p {
+      font-size: 1rem;    /* 調整段落字體大小 */
+    }
+  }
+}
