@@ -90,10 +90,10 @@ features:
 languages:
   - name: 中文
     percent: 100
-  - name: 英語
-    percent: 80
-  - name: 台語
-    percent: 70
+  - name: 英文
+    percent: 60
+  - name: 韓文
+    percent: 50
 
 # Awards
 # Add/remove as many `award` blocks below as you like.
