@@ -14,8 +14,8 @@ publishDate: '2024-01-20T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: ''
-publication_short: ''
+publication: '第十屆學子論壇'
+publication_short: '第十屆學子論壇'
 
 abstract: '在全球科技競爭日益激烈的背景下，美國對中國大陸實施了嚴格的AI晶片技術封鎖，這對中國的科技發展構成了重大挑戰。台灣作為全球半導體製造的重要參與者，擁有生產高端AI晶片的能力，並在國際科技封鎖格局中佔據著獨特的戰略地位。金門因其特殊的地理位置和政治背景，被視為兩岸科技合作的潛在窗口。本研究提出在金門建立AI算力中心的構想，旨在探索一種新的合作模式，以突破技術封鎖的局限，並促進兩岸科技創新與產業發展。研究深入探討了金門AI算力中心在技術轉移、知識產權保護、資金籌集、數據安全與隱私保護、以及兩岸關係不確定性和法律法規遵循等方面所面臨的挑戰。通過系統性分析，本研究評估了金門AI算力中心的可行性，並提出了具體的策略建議，以促進兩岸在高科技領域的合作，推動區域經濟共同繁榮。'
 
@@ -37,19 +37,24 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+# Custom links
+links:
+  - type: pdf
+    url: ""
+  - type: code
+    url: ""
+  - type: dataset
+    url: ""
+  - type: poster
+    url: ""
+  - type: project
+    url: ""
+  - type: slides
+    url: ""
+  - type: source
+    url: ""
+  - type: video
+    url: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
