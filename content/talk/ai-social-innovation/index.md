@@ -14,6 +14,11 @@ address:
 summary: 'AI與社會創新專題演講，探討如何運用人工智慧技術推動社會創新發展'
 abstract: '本次演講將深入探討人工智慧與社會創新的結合，分析如何運用AI技術解決社會問題，推動創新發展。講師將分享小桔科技在社會創新領域的實踐經驗，並探討如何成為具備超級創意的「賽亞人」。'
 
+# Hugo Blox Builder specific settings
+talk: true
+publication_types: []
+featured: false
+
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: '2024-05-07T14:10:00Z'

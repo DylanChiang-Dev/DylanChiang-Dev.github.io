@@ -1,19 +1,24 @@
 ---
 title: 中國大陸智慧城市與網路經濟發展
 event: 通識課程 - 中國大陸與兩岸關係專業講座
-event_url: 
+event_url:
 
 location: 大恩507教室
 address:
-  street: 
+  street:
   city: 台北市
   region: 台灣
-  postcode: 
+  postcode:
   country: 台灣
 
 summary: 探討中國大陸智慧城市建設與網路經濟發展的現狀、挑戰與未來趨勢
 abstract: |
   本次講座將深入探討中國大陸智慧城市建設的發展歷程，分析網路經濟在城市現代化進程中的重要作用。講座內容涵蓋智慧城市的核心技術、應用場景、政策支持，以及網路經濟對傳統產業轉型升級的推動作用。同時，也將討論兩岸在智慧城市建設和網路經濟發展方面的合作機會與前景。
+
+# Hugo Blox Builder specific settings
+talk: true
+publication_types: []
+featured: true
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -33,9 +38,6 @@ tags:
   - 中國大陸
   - 兩岸關係
   - 數位轉型
-
-# Is this a featured talk? (true/false)
-featured: true
 
 image:
   caption: '中國大陸智慧城市與網路經濟發展講座'
