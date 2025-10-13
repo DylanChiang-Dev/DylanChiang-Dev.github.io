@@ -82,7 +82,7 @@ sections:
   - block: collection
     id: speaking
     content:
-      title: 演講
+      title: 講座
       subtitle: '分享知識，傳遞價值'
       text: ''
       filters:
