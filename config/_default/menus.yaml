@@ -14,7 +14,7 @@ main:
     url: '/#talks'
     weight: 30
   - name: 演講
-    url: '/talk/'
+    url: '/#speaking'
     weight: 35
   - name: 新聞
     url: '/#news'
