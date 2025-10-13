@@ -49,15 +49,19 @@ links:
   - type: pdf
     url: ""
   - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: ""
   - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: ""
+  - type: poster
+    url: ""
+  - type: project
+    url: ""
   - type: slides
-    url: https://www.slideshare.net/
+    url: ""
   - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: ""
   - type: video
-    url: https://youtube.com
+    url: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

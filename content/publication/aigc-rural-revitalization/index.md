@@ -13,7 +13,7 @@ publishDate: "2024-01-31T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "鄉村振興與文化創新研究"
+publication: "第二屆海峽兩岸鄉村振興與共同富裕論壇"
 publication_short: ""
 
 abstract: 在當今全球化的背景下，海峽兩岸的文化交流與合作日益成為促進共同發展的重要途徑。本研究深入分析AIGC技術在鄉村振興與文旅產品創新中的角色，探討如何有效利用這些技術促進地方文化的傳承與發展。通過對AIGC技術的深入研究，本研究不僅期望增強對該技術在文化產品創新中應用的理解，也旨在為政策制定者、地方管理者以及創意產業從業者提供實用的策略和建議，共同推動海峽兩岸鄉村地區的振興與繁榮。

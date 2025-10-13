@@ -4,13 +4,13 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: 個人簡介
+  - name: 首頁
     url: '/'
     weight: 10
   - name: 論文
     url: '/#publication'
     weight: 20
-  - name: 會議
+  - name: 參會
     url: '/#talks'
     weight: 30
   - name: 演講
