@@ -8,7 +8,7 @@ main:
     url: '/'
     weight: 10
   - name: 論文
-    url: '/#papers'
+    url: '/#publication'
     weight: 20
   - name: 會議
     url: '/#talks'

@@ -58,14 +58,14 @@ sections:
   #     view: compact
   #     columns: 1
   - block: collection
-    id: papers
+    id: publication
     content:
       title: 最新論文
-      text: ""
       filters:
         folders:
           - publication
         exclude_featured: false
+      count: 3
     design:
       view: citation
   - block: collection

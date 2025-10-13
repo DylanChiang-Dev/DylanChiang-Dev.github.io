@@ -53,10 +53,16 @@ content/
 - `config/_default/menus.yaml` - 導航菜單配置
 - `hugoblox.yaml` - Hugo Blox 主題版本配置
 
-### 靜態資源
-- `assets/` - SCSS、圖片等源資源
+### 靜態資源處理
+- `assets/` - SCSS、圖片等源資源，經由 Hugo 處理管道
 - `static/` - 直接複製到最終網站的靜態文件
+- `assets/js/` - 自定義 JavaScript 模組
 - `layouts/partials/hooks/` - 自定義模板掛鉤
+
+### 構建優化機制
+- **多層緩存系統**: Node 模塊和 Hugo 資源分開緩存
+- **增量構建**: 只重新處理變更的資源和配置
+- **圖片處理**: 自動壓縮、尺寸調整和格式優化
 
 ## 部署工作流
 
@@ -64,11 +70,18 @@ content/
 - **觸發條件**: 推送到 `main` 分支
 - **部署分支**: `gh-pages`
 - **網站地址**: https://dylanchiang-dev.github.io
+- **構建環境**: Ubuntu latest, Node.js 20, Hugo Extended 0.148.2
 - **構建流程**:
   1. 安裝 Node.js 和 pnpm 依賴
-  2. 使用 Hugo Extended 構建
-  3. 可選：生成 Pagefind 搜索索引
-  4. 部署到 GitHub Pages
+  2. 設置多層緩存（Node 模塊 + Hugo 資源）
+  3. 使用 Hugo Extended 構建並壓縮
+  4. 可選：生成 Pagefind 搜索索引
+  5. 部署到 GitHub Pages
+
+### CI/CD 優化
+- **智能緩存**: 基於 `package.json`, `pnpm-lock.yaml`, `assets/**/*`, `config/**/*` 雜湊值
+- **並行構建**: 支持多個工作流程並行運行
+- **自動清理**: 構建失敗時自動清理資源
 
 ### Netlify 配置（備用）
 - 支持預覽部署和分支部署
@@ -101,3 +114,25 @@ content/
 - 媒體文件建議使用英文命名
 - 配置文件使用 YAML 格式
 - 避免使用特殊字符和空格
+
+## 自定義功能
+
+### JavaScript 模組
+- **PDF 連結處理**: 自動為 PDF 連結添加 `target="_blank"` 屬性
+- **位置**: `assets/js/pdf-links.js` 和 `layouts/partials/hooks/head-end/pdf-links.html`
+
+### 模板掛鉤
+- **head-end**: 用於添加自定義 JavaScript 和 CSS
+- **位置**: `layouts/partials/hooks/head-end/`
+
+## 開發環境設定
+
+### 推薦工具
+- **編輯器**: VS Code 或支援 Hugo 語法的編輯器
+- **Live Reload**: `hugo server` 自動支援實時預覽
+- **圖片優化**: Hugo 內建圖片處理管道
+
+### 調試技巧
+- 構建時使用 `--debug` 參數查看詳細輸出
+- 檢查 `resources/_gen/` 目錄了解生成資源
+- 使用網站開發者工具檢查生成的 HTML 和 CSS
