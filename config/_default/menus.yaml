@@ -13,7 +13,7 @@ main:
   - name: 參會
     url: '/#talks'
     weight: 30
-  - name: 演講
+  - name: 講座
     url: '/#speaking'
     weight: 35
   - name: 新聞
