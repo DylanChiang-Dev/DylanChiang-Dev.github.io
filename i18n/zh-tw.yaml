@@ -1,0 +1,46 @@
+# Hugo Blox Builder Chinese Traditional Translations
+# 經歷頁面翻譯
+
+# 經歷相關
+experience: 經歷
+work: 工作經歷
+education: 教育經歷
+experience_summary: 經歷摘要
+
+# 技能相關
+skills: 技能
+skills_and_hobbies: 技能與興趣
+technical_skills: 技術技能
+soft_skills: 軟技能
+
+# 獎項相關
+awards: 獲獎記錄
+honors: 榮譽
+certifications: 證書
+
+# 語言相關
+languages: 語言能力
+language proficiency: 語言熟練度
+
+# 日期相關
+present: 至今
+month_names:
+  january: "1月"
+  february: "2月"
+  march: "3月"
+  april: "4月"
+  may: "5月"
+  june: "6月"
+  july: "7月"
+  august: "8月"
+  september: "9月"
+  october: "10月"
+  november: "11月"
+  december: "12月"
+
+# 通用標籤
+more: 更多
+view_all: 查看全部
+see_details: 查看詳情
+download: 下載
+view: 查看
