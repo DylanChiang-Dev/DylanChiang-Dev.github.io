@@ -19,35 +19,27 @@ sections:
       # Education or Experience section first?
       is_education_first: false
 
-  # 📝 Skills & Hobbies - Compact 視圖 (詳細描述風格)
+  # Skills & Hobbies - Compact 視圖 (詳細描述風格)
   - block: features
     id: skills
     content:
-      title: 📝 技能與興趣
+      title: 技能與興趣
       subtitle: 詳細描述風格 - 深入介紹每項技能
       items:
-        - name: Python
-          description: 熟練掌握 Python 程式設計，包含數據分析、機器學習和知識圖譜建構
-          icon: python
-          icon_pack: fab
-        - name: R
-          description: 精通 R 語言統計分析，擅長數據視覺化和統計計算建模
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 具備紮實的統計學基礎，熟悉各種統計方法和假設檢定
-          icon: chart-line
+        - name: 科技與社會研究（STS / 政治科技）
+          description: 探討人工智慧、監控資本主義與數位治理等議題，分析科技在權力結構與社會治理中的政治意涵
+          icon: balance-scale
           icon_pack: fas
-        - name: SQL
-          description: 熟練使用 SQL 進行資料庫查詢、數據整理和分析
-          icon: database
+        - name: 國家發展與大陸研究
+          description: 專注於中國大陸政治發展、治理體制與政策變遷研究，關注國家建構、發展戰略與社會轉型議題，並從比較政治視角分析兩岸互動與區域發展動態
+          icon: globe
           icon_pack: fas
-        - name: 學術論文寫作
-          description: 具備學術寫作能力，熟悉論文撰寫和學術規範
-          icon: pen-fancy
+        - name: 人工智慧應用與數位研究方法
+          description: 關注生成式 AI、自然語言處理與資料視覺化在社會科學研究中的應用，具備運用開源模型與工具設計研究流程的實務經驗
+          icon: brain
           icon_pack: fas
     design:
-      columns: '1'
+      columns: 1
       view: compact
 
   - block: resume-awards
