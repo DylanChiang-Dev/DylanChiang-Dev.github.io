@@ -120,12 +120,30 @@ languages:
 # Only `title`, `awarder`, and `date` are required.
 # Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 優秀學生獎
-    date: '2022-06-30'
+  - title: 第五屆雲台大學生雙創賽銅獎
+    date: '2025-09-01'
+    awarder: 雲南大學、銘傳大學
+    icon: academic-cap
+    summary: |
+      榮獲第五屆雲台大學生雙創賽銅獎（由雲南省人民政府台灣事務辦公室、雲南省教育廳指導，雲南大學和台灣銘傳大學共同承辦）
+  - title: 第四屆雲台大學生雙創賽銀獎
+    date: '2024-09-01'
+    awarder: 雲南大學、銘傳大學
+    icon: academic-cap
+    summary: |
+      榮獲第四屆雲台大學生雙創賽銀獎（由雲南省人民政府台灣事務辦公室、雲南省教育廳指導，雲南大學和台灣銘傳大學共同承辦）
+  - title: 內政部替代役績優表現
+    date: '2023-05-17'
+    awarder: 內政部
+    icon: academic-cap
+    summary: |
+      獲選112年上半年替代役績優役男（文號：1121070500號）
+  - title: 108學年度第1學期研究所學業優良獎學金
+    date: '2020-07-01'
     awarder: 中國文化大學
     icon: academic-cap
     summary: |
-      因學業表現優異及積極參與學術活動，獲得中國文化大學優秀學生獎。
+      榮獲108學年度第1學期研究所學業優良獎學金（證書編號：1090001009）
 ---
 
 ## 關於我

@@ -40,7 +40,7 @@ sections:
           icon_pack: fas
     design:
       columns: 1
-      view: compact
+      view: card
 
   - block: resume-awards
     content:

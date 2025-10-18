@@ -1,6 +1,6 @@
 ---
-title: Learn JavaScript
-summary: Easily learn JavaScript in 10 minutes!
+title: 學習 JavaScript
+summary: 10分鐘快速學會 JavaScript！
 date: 2023-10-24
 type: docs
 math: false

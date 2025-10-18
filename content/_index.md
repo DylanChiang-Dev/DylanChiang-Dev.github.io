@@ -55,7 +55,7 @@ sections:
   #         - publication
   #       featured_only: true
   #   design:
-  #     view: compact
+  #     view: card
   #     columns: 1
   - block: collection
     id: publication
@@ -69,17 +69,6 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
-    content:
-      title: 參會
-      filters:
-        folders:
-          - event
-      count: 3
-    design:
-      view: compact
-      columns: 1
-  - block: collection
     id: speaking
     content:
       title: 講座
@@ -92,6 +81,17 @@ sections:
     design:
       view: card
       columns: 2
+  - block: collection
+    id: talks
+    content:
+      title: 參會
+      filters:
+        folders:
+          - event
+      count: 3
+    design:
+      view: card
+      columns: 1
   - block: collection
     id: news
     content:
