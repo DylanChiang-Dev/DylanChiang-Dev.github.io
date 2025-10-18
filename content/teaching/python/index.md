@@ -1,6 +1,6 @@
 ---
-title: Learn Python
-summary: Easily learn Python in 10 minutes!
+title: 學習 Python
+summary: 10分鐘快速學會 Python！
 date: 2023-10-24
 type: docs
 math: false

@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: 教學
+summary: 我的課程
 type: landing
 
 cascade:
@@ -13,7 +13,7 @@ sections:
   - block: collection
     id: teaching
     content:
-      title: Teaching
+      title: 教學
       filters:
         folders:
           - teaching
