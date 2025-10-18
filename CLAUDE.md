@@ -8,20 +8,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 核心技術棧
 
-- **Hugo Extended 0.148.2** - 靜態網站生成器
+- **Hugo Extended 0.148.2** - 靜態網站生成器（由 GitHub Actions 指定版本）
 - **Hugo Blox Builder** - 學術網站主題框架
 - **Tailwind CSS v4** - CSS 框架（通過 pnpm 管理）
-- **Node.js 20** - 用於 CSS 構建和資源處理
-- **pnpm 10.14.0** - 包管理器
+- **Node.js 20** - 用於 CSS 構建和資源處理（由 GitHub Actions 指定版本）
+- **pnpm 10.14.0** - 包管理器（在 package.json 中指定）
 
 ## 常用開發命令
 
 ```bash
-# 本地開發服務器
-hugo server
+# 本地開發服務器（推薦使用 --disableFastRender）
+hugo server --disableFastRender
 
 # 使用 npm scripts
-npm run dev  # 啟動開發服務器
+npm run dev  # 啟動開發服務器（等同於 hugo server --disableFastRender）
 
 # 構建生產版本
 npm run build  # 構建並壓縮
@@ -29,8 +29,20 @@ npm run build  # 構建並壓縮
 hugo --minify
 
 # 依賴管理
-pnpm install  # 安裝依賴
+pnpm install  # 安裝 Tailwind CSS 相關依賴
 ```
+
+## Hugo Blox Builder 特定配置
+
+### 語言設定
+- **主要語言**: `zh-tw`（繁體中文）
+- **CJK 支援**: `hasCJKLanguage: true`
+- **語言子目錄**: `defaultContentLanguageInSubdir: false`
+
+### 關鍵配置文件
+- `config/_default/hugo.yaml` - 主要 Hugo 配置，包含語言設定和建構參數
+- `config/_default/menus.yaml` - 導航菜單權重配置
+- `hugoblox.yaml` - Hugo Blox 主題版本鎖定
 
 ## 項目架構
 
@@ -71,6 +83,7 @@ content/
 - **部署分支**: `gh-pages`
 - **網站地址**: https://dylanchiang-dev.github.io
 - **構建環境**: Ubuntu latest, Node.js 20, Hugo Extended 0.148.2
+- **版本管理**: 所有版本號在 `.github/workflows/deploy.yml` 中統一管理
 - **構建流程**:
   1. 安裝 Node.js 和 pnpm 依賴
   2. 設置多層緩存（Node 模塊 + Hugo 資源）
@@ -82,6 +95,8 @@ content/
 - **智能緩存**: 基於 `package.json`, `pnpm-lock.yaml`, `assets/**/*`, `config/**/*` 雜湊值
 - **並行構建**: 支持多個工作流程並行運行
 - **自動清理**: 構建失敗時自動清理資源
+- **條件構建**: 僅在 package.json 存在時安裝 Tailwind 依賴
+- **可選搜索**: 自動檢測並生成 Pagefind 搜索索引
 
 ### Netlify 配置（備用）
 - 支持預覽部署和分支部署
@@ -90,8 +105,10 @@ content/
 ## 內容管理要點
 
 ### 添加新內容
-- 所有內容使用 Markdown 格式
-- 每個內容類型都有對應的 `_index.md` 檔案
+- 所有內容使用 Markdown 格式，每個內容類型都有對應的 `_index.md` 檔案
+- **作者信息**: 編輯 `content/authors/admin/_index.md`
+- **首頁內容**: 修改 `content/_index.md` 的 sections 配置
+- **導航順序**: 在 `config/_default/menus.yaml` 中調整 weight 值
 - 支援圖片、PDF、音頻等多媒體資源
 - 建議為每個新內容創建獨立文件夾
 
@@ -102,11 +119,13 @@ content/
 
 ## 開發注意事項
 
-- **本地測試**: 使用 `hugo server` 進行實時預覽
+- **本地測試**: 使用 `hugo server --disableFastRender` 進行實時預覽
 - **圖片優化**: Hugo 自動處理圖片壓縮和尺寸調整
 - **緩存**: 構建過程使用多層緩存提升性能
 - **版本控制**: Git 信息可用於 .GitInfo 和 .Lastmod
 - **搜索功能**: 可選集成 Pagefind 搜索
+- **圖標管理**: SVG 圖標需放在 `assets/media/icons/` 對應目錄下
+- **草稿狀態**: 設置 `draft: false` 讓內容在開發環境中顯示
 
 ## 文件命名約定
 
