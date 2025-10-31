@@ -52,7 +52,7 @@ sections:
       count: 10
     design:
       view: card
-      columns: 2
+      columns: 1
   - block: resume-languages
     content:
       title: 語言能力
