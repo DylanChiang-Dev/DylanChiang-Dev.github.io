@@ -169,4 +169,5 @@ image:
 - **作者**：Shuo Xing, Junyuan Hong, Yifan Wang, Runjin Chen等
 - **機構**：德州大學奧斯汀分校、普渡大學、德州農工大學
 - **發表**：arXiv:2510.13928v1 [cs.CL] 2025年10月15日
+- **論文地址**：https://arxiv.org/abs/2510.13928
 - **項目頁面**：https://llm-brain-rot.github.io/
