@@ -42,10 +42,17 @@ sections:
       columns: 1
       view: card
 
-  - block: resume-awards
+  - block: collection
+    id: awards
     content:
       title: 獲獎記錄
-      username: admin
+      filters:
+        folders:
+          - awards
+      count: 10
+    design:
+      view: card
+      columns: 2
   - block: resume-languages
     content:
       title: 語言能力
