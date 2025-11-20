@@ -1,5 +1,5 @@
 ---
-title: "論文閱讀：金錢能買到愛？為什麼送禮比談心更能安慰人"
+title: "論文閱讀：Money can buy me love: Gifts are a more effective form of acute social support than conversations"
 summary: "Howe et al. (2024) 研究發現，在面對急性壓力時，收到小禮物比進行支持性對話更能讓接收者感到心情好轉，原因在於禮物被視為一種更純粹的「犧牲」。"
 date: 2025-01-07
 authors:

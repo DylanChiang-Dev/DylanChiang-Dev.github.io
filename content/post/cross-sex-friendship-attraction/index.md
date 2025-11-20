@@ -1,5 +1,5 @@
 ---
-title: "論文閱讀：異性友誼中的吸引力是好處還是負擔？"
+title: "論文閱讀：Benefit or burden? Attraction in cross-sex friendship"
 summary: "Bleske-Rechek (2012) 透過兩項研究探討異性友誼中的吸引力，證實其為人類演化擇偶策略的副產品，且常被視為友誼的成本。"
 date: 2025-07-09
 authors:
