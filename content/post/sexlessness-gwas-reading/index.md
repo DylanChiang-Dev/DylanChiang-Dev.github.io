@@ -1,5 +1,5 @@
 ---
-title: "論文閱讀：Sexlessness 的全基因組關聯研究"
+title: "論文閱讀：Genome-wide association study of sexlessness"
 summary: "PNAS 2025 關於終身性無性經驗的遺传學與表型相關性研究"
 date: 2025-11-20
 authors:

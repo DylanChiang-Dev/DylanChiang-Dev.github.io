@@ -1,5 +1,5 @@
 ---
-title: "論文閱讀：多代階級複製 (Multigenerational Persistence)"
+title: "論文閱讀：Multigenerational persistence: Evidence from 146 years of administrative data"
 summary: "Jørgen Modalsli 利用挪威 146 年的行政數據，探討祖父對孫子經濟地位的影響"
 date: 2025-06-08
 authors:

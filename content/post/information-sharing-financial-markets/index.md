@@ -1,5 +1,5 @@
 ---
-title: "論文閱讀：為什麼「菜鳥」愛分享？金融市場中的資訊流動悖論"
+title: "論文閱讀：Information sharing in financial markets"
 summary: "Goldstein et al. (2024) 提出了一個反直覺的理論：在金融市場中，資訊通常是由「資訊較少」的投資人分享給「資訊較多」的投資人，目的是利用對方的交易來降低自己的價格衝擊。"
 date: 2025-04-05
 authors:
