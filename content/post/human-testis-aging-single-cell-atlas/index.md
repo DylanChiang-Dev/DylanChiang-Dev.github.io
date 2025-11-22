@@ -1,7 +1,7 @@
 ---
 title: "論文閱讀：Single-cell transcriptomic atlas of the human testis across the reproductive lifespan"
 summary: "使用單細胞轉錄組學技術，跨越49年生命期，35位捐贈者，繪製人類睪丸老化的分子地圖"
-date: 2024-10-24
+date: 2025-11-22
 authors:
   - admin
 tags:
@@ -300,5 +300,5 @@ TPCs 位於睪丸的外層，最先接觸到血液中的各種壓力因子（氧
 
 ---
 
-**閱讀日期**: 2024-10-24  
+**閱讀日期**: 2025-11-22  
 **筆記整理**: Dylan Chiang
