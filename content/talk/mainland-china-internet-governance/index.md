@@ -17,7 +17,7 @@ abstract: '本次演講將深入分析中國大陸網路生態系統的特殊性
 # Hugo Blox Builder specific settings
 talk: true
 publication_types: []
-featured: false
+# featured: false
 
 # Talk start and end times.
 date: '2025-10-30T11:10:00+08:00'

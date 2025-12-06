@@ -38,7 +38,7 @@ tags:
   - 科技應用
 
 # Is this a featured talk? (true/false)
-featured: false
+# featured: false
 
 image:
   caption: 'AI與社會創新'
