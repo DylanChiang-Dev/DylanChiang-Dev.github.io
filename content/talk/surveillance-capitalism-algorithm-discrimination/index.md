@@ -40,7 +40,7 @@ tags:
   - 中國大陸
 
 # Is this a featured talk?
-featured: false
+# featured: false
 
 image:
   caption: '監控資本主義與算法歧視'
