@@ -36,28 +36,17 @@ tags:
 featured: true
 
 # Custom links
+url_pdf: "uploads/Chiang_Master_Thesis_Generative_AI_Legislative_Assistants.pdf"
+url_source: "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=ArOu5Z/record?r1=1&h1=0#XXX"
+
 links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: ""
-  - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: ""
-  - type: source
-    url: ""
-  - type: video
-    url: ""
+  - name: "國家圖書館"
+    url: "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=ArOu5Z/record?r1=1&h1=0#XXX"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -79,7 +68,12 @@ slides: ''
 
 ## 摘要
 
-（待補充）
+本研究探討生成式人工智慧在立法委員助理工作中的使用行為，分析其對立法工作效率、決策品質及工作流程的影響。
+
+---
+
+### English Title
+**A Study of Generative Artificial Intelligence Use Behavior: Evidence from Legislative Assistants**
 
 ## 第一章 緒論
 
