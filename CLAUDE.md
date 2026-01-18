@@ -11,8 +11,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Hugo Extended 0.148.2** - 靜態網站生成器（由 GitHub Actions 指定版本）
 - **Hugo Blox Builder** - 學術網站主題框架
 - **Tailwind CSS v4** - CSS 框架（通過 pnpm 管理）
-- **Node.js 20** - 用於 CSS 構建和資源處理（由 GitHub Actions 指定版本）
-- **pnpm 10.14.0** - 包管理器（在 package.json 中指定）
+- **Node.js 20** - 用於 CSS 構建和資源處理
+- **pnpm 10.14.0** - 包管理器
 
 ## 常用開發命令
 
@@ -21,137 +21,156 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 hugo server --disableFastRender
 
 # 使用 npm scripts
-npm run dev  # 啟動開發服務器（等同於 hugo server --disableFastRender）
-
-# 構建生產版本
-npm run build  # 構建並壓縮
-# 或直接使用 Hugo
-hugo --minify
+npm run dev    # 啟動開發服務器
+npm run build  # 構建生產版本
 
 # 依賴管理
-pnpm install  # 安裝 Tailwind CSS 相關依賴
+pnpm install   # 安裝依賴
 ```
 
-## Hugo Blox Builder 特定配置
+## 內容類型對應指南
 
-### 語言設定
-- **主要語言**: `zh-tw`（繁體中文）
-- **CJK 支援**: `hasCJKLanguage: true`
-- **語言子目錄**: `defaultContentLanguageInSubdir: false`
+請嚴格遵守以下分類，特別是**論文閱讀筆記**與**學術論文**的區別：
 
-### 關鍵配置文件
-- `config/_default/hugo.yaml` - 主要 Hugo 配置，包含語言設定和建構參數
-- `config/_default/menus.yaml` - 導航菜單權重配置
-- `hugoblox.yaml` - Hugo Blox 主題版本鎖定
+| 內容類型 | 目錄 | 用途 |
+|---------|------|------|
+| **論文閱讀筆記** | `content/post/` | 個人化的論文閱讀心得、筆記（包含「我的理解」） |
+| **技術分享** | `content/post/` | AI、技術工具、方法論的分享 |
+| **學術論文** | `content/publication/` | **正式發表**的學術期刊、會議論文 |
+| **演講記錄** | `content/talk/` | 演講、報告內容 |
+| **會議記錄** | `content/event/` | 參與的學術會議 |
 
-## 項目架構
+## 命名規範
 
-### 內容結構
+### 資料夾與檔案
+- **資料夾命名**：全小寫英文，用短橫線分隔（`kebab-case`）。
+  - ✅ `rl-llm-reasoning-capacity-reading`
+  - ❌ `RLLLMReading`, `rl_llm_reading`, `論文閱讀`
+- **主檔案**：一律使用 `index.md`。
+- **圖片**：使用描述性英文名稱，小寫短橫線分隔（如 `result-chart.png`）。特色圖片可命名為 `featured.jpg`。
+
+### 語言規範
+- **優先使用繁體中文**（如 `人工智慧`）。
+- **常見縮寫使用英文大寫**（如 `LLM`, `AI`, `GWAS`）。
+- **專有名詞保持原文**（如 `ChatGPT`, `DeepSeek`）。
+
+## Front Matter 模板
+
+### 1. Post (論文閱讀/技術分享)
+位於 `content/post/`：
+```yaml
+---
+title: "文章標題"
+summary: "一句話摘要（顯示在列表中）"
+date: 2025-01-01
+authors:
+  - admin
+tags:
+  - 論文閱讀           # 一級標籤（必選）
+  - 人工智慧           # 二級標籤
+  - LLM               # 三級標籤
+draft: false
+---
 ```
-content/
-├── authors/admin/     # 作者個人信息和頭像
-├── post/             # 博客文章（學術新聞等）
-├── publication/      # 學術出版物
-├── project/          # 項目展示
-├── talk/             # 演講記錄
-├── event/            # 會議記錄
-├── teaching/         # 教學經歷
-└── _index.md         # 首頁內容
+*注意：論文閱讀筆記必須包含「我的理解」章節。*
+
+### 2. Publication (學術出版物)
+位於 `content/publication/`：
+```yaml
+---
+title: "論文標題"
+authors:
+  - admin
+date: "2025-01-01"
+draft: false
+publishDate: "2025-01-01"
+publication_types: ["article"]  # article, conference-paper, thesis
+publication: "期刊或會議名稱"
+publication_short: "縮寫"
+abstract: "完整摘要"
+summary: "一句話總結"
+tags:
+  - 標籤1
+featured: true
+links:
+  - type: pdf
+    url: PDF連結
+---
 ```
 
-### 配置文件
-- `config/_default/hugo.yaml` - 主要 Hugo 配置，包含語言設定（zh-tw）
-- `config/_default/params.yaml` - 網站參數和外觀配置
-- `config/_default/menus.yaml` - 導航菜單配置
-- `hugoblox.yaml` - Hugo Blox 主題版本配置
+### 3. Talk (演講)
+位於 `content/talk/`：
+```yaml
+---
+title: "演講標題"
+event: "活動名稱"
+location: "地點"
+summary: "演講摘要"
+abstract: "詳細說明"
+date: "2025-01-01T13:00:00Z"
+date_end: "2025-01-01T15:00:00Z"
+all_day: false
+authors:
+  - admin
+tags:
+  - 標籤
+draft: false
+---
+```
 
-### 靜態資源處理
-- `assets/` - SCSS、圖片等源資源，經由 Hugo 處理管道
-- `static/` - 直接複製到最終網站的靜態文件
-- `assets/js/` - 自定義 JavaScript 模組
-- `layouts/partials/hooks/` - 自定義模板掛鉤
+### 4. Event (參會)
+位於 `content/event/`：
+```yaml
+---
+title: "會議名稱"
+event: "完整會議名稱"
+location: "地點"
+summary: "會議摘要"
+date: "2025-01-01"
+date_end: "2025-01-03"
+all_day: true
+authors:
+  - admin
+tags:
+  - 標籤
+draft: false
+---
+```
 
-### 構建優化機制
-- **多層緩存系統**: Node 模塊和 Hugo 資源分開緩存
-- **增量構建**: 只重新處理變更的資源和配置
-- **圖片處理**: 自動壓縮、尺寸調整和格式優化
+## 標籤系統指南
 
-## 部署工作流
+採用三層標籤系統，詳見 `docs/TAGGING_GUIDE.md`：
 
-### GitHub Pages 自動部署
-- **觸發條件**: 推送到 `main` 分支
-- **部署分支**: `gh-pages`
-- **網站地址**: https://dylanchiang-dev.github.io
-- **構建環境**: Ubuntu latest, Node.js 20, Hugo Extended 0.148.2
-- **版本管理**: 所有版本號在 `.github/workflows/deploy.yml` 中統一管理
-- **構建流程**:
-  1. 安裝 Node.js 和 pnpm 依賴
-  2. 設置多層緩存（Node 模塊 + Hugo 資源）
-  3. 使用 Hugo Extended 構建並壓縮
-  4. 可選：生成 Pagefind 搜索索引
-  5. 部署到 GitHub Pages
+1.  **一級標籤（內容類型，必選一個）**
+    - `論文閱讀`、`技術分享`、`研究發現`、`教學資源`
 
-### CI/CD 優化
-- **智能緩存**: 基於 `package.json`, `pnpm-lock.yaml`, `assets/**/*`, `config/**/*` 雜湊值
-- **並行構建**: 支持多個工作流程並行運行
-- **自動清理**: 構建失敗時自動清理資源
-- **條件構建**: 僅在 package.json 存在時安裝 Tailwind 依賴
-- **可選搜索**: 自動檢測並生成 Pagefind 搜索索引
+2.  **二級標籤（主題領域，推薦）**
+    - 社會科學：`心理學`、`經濟學`、`政治學`
+    - 科技領域：`人工智慧`、`數據科學`
+    - 方法論：`行為遺傳學`、`演化心理學`
 
-### Netlify 配置（備用）
-- 支持預覽部署和分支部署
-- 自動資源緩存優化
+3.  **三級標籤（具體技術/概念，可選多個）**
+    - `LLM`、`強化學習`、`RLVR`、`ChatGPT`
+    - `GWAS`、`參與式預算`
 
-## 內容管理要點
+**標籤建議數量**：3-6 個。
 
-### 添加新內容
-- 所有內容使用 Markdown 格式，每個內容類型都有對應的 `_index.md` 檔案
-- **作者信息**: 編輯 `content/authors/admin/_index.md`
-- **首頁內容**: 修改 `content/_index.md` 的 sections 配置
-- **導航順序**: 在 `config/_default/menus.yaml` 中調整 weight 值
-- 支援圖片、PDF、音頻等多媒體資源
-- 建議為每個新內容創建獨立文件夾
+## 項目架構與配置
 
-### 語言和本地化
-- 主要語言: `zh-tw`（繁體中文）
-- 啟用 CJK 語言支援
-- 日期格式和本地化配置在 `params.yaml` 中
+### 關鍵路徑
+- `content/`：網站內容源文件。
+- `config/_default/`：
+  - `hugo.yaml`：主配置（語言 `zh-tw`, CJK 支援）。
+  - `menus.yaml`：導航菜單權重。
+  - `params.yaml`：外觀參數。
+- `assets/`：SCSS、圖片等資源。
 
-## 開發注意事項
+### 部署工作流
+- 推送到 `main` 分支觸發 GitHub Actions。
+- 自動構建並部署至 `gh-pages` 分支。
+- 網站地址：https://dylanchiang-dev.github.io
 
-- **本地測試**: 使用 `hugo server --disableFastRender` 進行實時預覽
-- **圖片優化**: Hugo 自動處理圖片壓縮和尺寸調整
-- **緩存**: 構建過程使用多層緩存提升性能
-- **版本控制**: Git 信息可用於 .GitInfo 和 .Lastmod
-- **搜索功能**: 可選集成 Pagefind 搜索
-- **圖標管理**: SVG 圖標需放在 `assets/media/icons/` 對應目錄下
-- **草稿狀態**: 設置 `draft: false` 讓內容在開發環境中顯示
-
-## 文件命名約定
-
-- 內容文件使用 `index.md`
-- 媒體文件建議使用英文命名
-- 配置文件使用 YAML 格式
-- 避免使用特殊字符和空格
-
-## 自定義功能
-
-### JavaScript 模組
-- **PDF 連結處理**: 自動為 PDF 連結添加 `target="_blank"` 屬性
-- **位置**: `assets/js/pdf-links.js` 和 `layouts/partials/hooks/head-end/pdf-links.html`
-
-### 模板掛鉤
-- **head-end**: 用於添加自定義 JavaScript 和 CSS
-- **位置**: `layouts/partials/hooks/head-end/`
-
-## 開發環境設定
-
-### 推薦工具
-- **編輯器**: VS Code 或支援 Hugo 語法的編輯器
-- **Live Reload**: `hugo server` 自動支援實時預覽
-- **圖片優化**: Hugo 內建圖片處理管道
-
-### 調試技巧
-- 構建時使用 `--debug` 參數查看詳細輸出
-- 檢查 `resources/_gen/` 目錄了解生成資源
-- 使用網站開發者工具檢查生成的 HTML 和 CSS
+### 開發注意事項
+- **圖片處理**：Hugo 自動處理壓縮。建議為每個新內容創建獨立文件夾以管理圖片。
+- **PDF 連結**：系統會自動為 PDF 連結添加 `target="_blank"`（由 `assets/js/pdf-links.js` 處理）。
+- **搜索**：支援 Pagefind 搜索索引生成。
