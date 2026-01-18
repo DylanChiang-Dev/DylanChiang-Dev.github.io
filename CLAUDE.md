@@ -40,6 +40,11 @@ pnpm install   # 安裝依賴
 | **演講記錄** | `content/talk/` | 演講、報告內容 |
 | **會議記錄** | `content/event/` | 參與的學術會議 |
 
+## 參考文檔 (Reference Documentation)
+
+- **論文閱讀筆記指南**: 詳見 `docs/PAPER_READING_GUIDE.md` (寫作風格、結構模板)。
+- **標籤系統指南**: 詳見 `docs/TAGGING_GUIDE.md`。
+
 ## 命名規範
 
 ### 資料夾與檔案
