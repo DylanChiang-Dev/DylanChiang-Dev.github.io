@@ -267,7 +267,8 @@ draft: false
 - `assets/`：SCSS、圖片等資源。
 
 ### 部署工作流
-- 推送到 `main` 分支自動觸發 Cloudflare Pages 雲端構建與部署。
+- 推送到 `main` 分支觸發 GitHub Actions。
+- 自動構建並部署至 `gh-pages` 分支。
 - 網站地址：https://dylanchiang-dev.github.io
 
 ### 開發注意事項
