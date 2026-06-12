@@ -72,6 +72,27 @@ slides: ''
 
 ---
 
+## 參考文獻勘誤（Errata，2026-06-12）
+
+本論文送存後，作者以自行開發的引用查核工具 [citation-verify](https://github.com/DylanChiang-Dev/liberal-arts-research-skills) 對全部 47 筆參考文獻進行覆核，發現以下書目層面的筆誤，依學術慣例公開更正。**以上錯誤均不影響本論文之論證與結論。**
+
+**DOI 更正（原 DOI 可解析，但指向他文）：**
+
+| 條目 | 原 DOI（誤） | 更正 DOI |
+|---|---|---|
+| Brooks, Longstreet, & Califf (2017) | `10.17705/1thci.00009` | `10.17705/1thci.00091` |
+| De Vries, Tummers, & Bekkers (2018) | `10.1093/ppmgov/gvx003` | `10.1093/ppmgov/gvy001` |
+| Wu & Lin (2016) | `10.1016/j.techfore.2016.06.011` | `10.1016/j.techfore.2016.06.028` |
+
+**署名更正：**
+
+- Thomas, E., & Rogers, B. E. M. (1998) → 應為 **Backer, T. E., & Rogers, E. M.** (1998)
+- 「Perceived usefulness... (n.d.). *MIS Quarterly*」→ 應為 **Davis, F. D. (1989)**, *MIS Quarterly*, 13(3), 319–340
+
+另有 7 筆網路來源條目的作者／出處資訊補全、2 筆重複條目刪除，完整勘誤表與查核方法見 [實測案例 001](https://github.com/DylanChiang-Dev/liberal-arts-research-skills/blob/main/examples/2026-06-12-master-thesis-case.md)。
+
+---
+
 ### English Title
 **A Study of Generative Artificial Intelligence Use Behavior: Evidence from Legislative Assistants**
 
