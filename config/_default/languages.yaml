@@ -4,22 +4,26 @@
 
 # Default language
 zh-tw:
+  languageCode: zh-TW
   locale: zh-TW
   label: 中文
   weight: 1
   title: 蔣濤
   params:
+    label: 中文
     description: 蔣濤的個人學術網站
     marketing:
       seo:
         description: '蔣濤（Dylan Chiang）的個人學術網站，研究自然語言處理、大型語言模型、計算社會科學與以人為本的人工智慧。'
 
 en:
+  languageCode: en-US
   locale: en-US
   label: English
   weight: 2
   title: Dylan Chiang
   params:
+    label: English
     description: Dylan Chiang's academic website
     marketing:
       seo:
