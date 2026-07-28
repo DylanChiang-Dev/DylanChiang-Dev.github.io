@@ -52,7 +52,7 @@ sections:
         folders:
           - project
         featured_only: true
-      count: 3
+      count: 5
     design:
       view: article-grid
       fill_image: false

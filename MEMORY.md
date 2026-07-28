@@ -20,6 +20,12 @@
 
 ## Latest Entries
 
+### 2026-07-28 20:00 CST Open-source portfolio
+
+- Added DC-WeMark, BOYA Skills, and DC Family Task Manager as featured portfolio projects.
+- Each project page documents Dylan's role, core innovations, technical architecture, live demo, and GitHub source.
+- Increased the homepage recent-project count from three to five so all current personal projects are visible.
+
 ### 2026-07-28 19:00 CST Demo project cleanup
 
 - Removed the Pandas, scikit-learn, and PyTorch starter-template examples because they were not Dylan's projects.
