@@ -20,6 +20,11 @@
 
 ## Latest Entries
 
+### 2026-07-28 20:30 CST CAIADA leadership update
+
+- Added Dylan's current role as Chairperson of the Chinese AI Application Development Association (CAIADA) to the experience timeline and biography.
+- The entry reflects the association's public mission: AI technology exchange, industry collaboration, talent development, and cross-sector AI application promotion.
+
 ### 2026-07-28 20:00 CST Open-source portfolio
 
 - Added DC-WeMark, BOYA Skills, and DC Family Task Manager as featured portfolio projects.
