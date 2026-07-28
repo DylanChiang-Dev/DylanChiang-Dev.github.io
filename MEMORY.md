@@ -26,6 +26,13 @@
 - The public project page describes the local-first competition prototype, Dylan's product and technology contributions, and the consent-based AI-agent relationship exploration flow without exposing team titles or the private source repository.
 - Added the project to the homepage's featured project collection and reused the pitch deck's title, mechanism, and governance slides as project visuals.
 
+### 2026-07-28 18:45 CST Kinmen AI computing center project refresh
+
+- Rewrote the fourth Yunnan-Taiwan competition project page as a concise public portfolio entry covering Dylan's contributions, service concept, core innovations, silver award, and related research.
+- Clarified that the computing center is a research and competition proposal rather than an operating facility.
+- Added a generated infrastructure cover image and featured the project on the homepage alongside WeiShi.
+- Reframed all cross-regional service discussion around export-control, data-protection, and legal compliance.
+
 ### 2026-07-28 17:30 CST Fudan PhD profile update
 
 - Updated the academic profile to reflect Dylan's 智能科學與技術 PhD study at the School of Data Science, Fudan University, and affiliation with the Data Intelligence and Social Computing Lab (Fudan DISC).
