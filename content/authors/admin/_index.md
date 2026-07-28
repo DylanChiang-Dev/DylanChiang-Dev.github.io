@@ -23,12 +23,14 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 研究生
+role: 復旦大學大數據學院智能科學與技術博士生
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 中國文化大學
-    url: https://dylanchiang-dev.github.io/
+  - name: 復旦大學
+    url: https://www.fudan.edu.cn/
+  - name: 數據智能與社會計算實驗室（Fudan DISC）
+    url: http://www.fudan-disc.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -36,26 +38,33 @@ profiles:
   - icon: at-symbol
     url: 'mailto:3331322@gmail.com'
     label: E-mail Me
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+  - icon: brands/github
+    url: https://github.com/DylanChiang-Dev
+    label: GitHub
+  - icon: brands/x
+    url: https://x.com/DylanChiangAI
+    label: X
 
 interests:
-  - 生成式人工智慧
-  - 政治工作研究
-  - 技術接受度研究
+  - 自然語言處理與大型語言模型
+  - 計算社會科學
+  - 以人為本的人工智慧
 
 education:
-  - area: 中國文化大學國家發展與中國大陸研究所
-    institution: 法學碩士
+  - area: 智能科學與技術博士
+    institution: 復旦大學大數據學院
+    summary: |
+      數據智能與社會計算實驗室（Fudan DISC）
+      研究方向：自然語言處理、大型語言模型與計算社會科學
+  - area: 國家發展與中國大陸研究法學碩士
+    institution: 中國文化大學
     date_start: 2018-09-01
     date_end: 2025-11-30
     summary: |
       碩士論文：生成式人工智慧使用行為之研究（以立法委員助理為例）
-      專注AI技術在政治工作中的應用研究
-  - area: 深圳大學政府管理學院
-    institution: 交換學生
+      專注 AI 技術在政治工作中的應用研究
+  - area: 公共管理交換學生
+    institution: 深圳大學政府管理學院
     date_start: 2023-07-01
     date_end: 2024-01-31
     summary: |
@@ -91,18 +100,18 @@ work:
 # Add/remove as many `feature` blocks below as you like.
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 features:
-  - icon: balance-scale
-    icon_pack: fas
-    name: 科技與社會研究（STS / 政治科技）
-    description: 探討人工智慧、監控資本主義與數位治理等議題，分析科技在權力結構與社會治理中的政治意涵
-  - icon: globe
-    icon_pack: fas
-    name: 國家發展與大陸研究
-    description: 專注於中國大陸政治發展、治理體制與政策變遷研究，關注國家建構、發展戰略與社會轉型議題，並從比較政治視角分析兩岸互動與區域發展動態
   - icon: brain
     icon_pack: fas
-    name: 人工智慧應用與數位研究方法
-    description: 關注生成式 AI、自然語言處理與資料視覺化在社會科學研究中的應用，具備運用開源模型與工具設計研究流程的實務經驗
+    name: 自然語言處理與大型語言模型
+    description: 研究大型語言模型、智能體與自然語言處理方法，關注模型如何理解、生成並參與複雜的社會互動
+  - icon: globe
+    icon_pack: fas
+    name: 計算社會科學
+    description: 結合社會科學問題意識、計算方法與社會模擬，分析數位平台、公共治理與群體行為
+  - icon: balance-scale
+    icon_pack: fas
+    name: 以人為本的人工智慧
+    description: 為研究與知識工作打造可信、以人為中心的 AI 工具，重視人的學術判斷、來源查核與研究倫理
   
 # Languages
 # Add/remove as many `language` blocks below as you like.
@@ -147,6 +156,6 @@ awards:
 
 ## 關於我
 
-我是一名專注於人工智慧社會應用的研究者與實踐者。目前就讀於中國文化大學國家發展與中國大陸研究所，同時也是小桔科技創辦人。
+我是復旦大學大數據學院智能科學與技術博士生，加入數據智能與社會計算實驗室（Fudan DISC）。研究聚焦於自然語言處理、大型語言模型與計算社會科學，並關注人工智慧如何服務研究、知識工作與社會治理。
 
-我相信科技應該服務於社會進步。無論是在學術研究中探討 AI 對政治工作的影響，還是在創業實踐中推動技術落地，我始終關注如何讓人工智慧成為促進公共利益的工具。
+我具有國家發展、公共管理與人工智慧採用研究背景。從生成式 AI 在政治工作中的使用行為，到面向人文社科研究者的可信 AI 工具，我持續探索如何把計算方法、社會科學問題意識與人的判斷結合起來。

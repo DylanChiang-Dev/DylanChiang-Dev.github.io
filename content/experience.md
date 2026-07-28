@@ -26,17 +26,17 @@ sections:
       title: 技能與興趣
       subtitle: 詳細描述風格 - 深入介紹每項技能
       items:
-        - name: 科技與社會研究（STS / 政治科技）
-          description: 探討人工智慧、監控資本主義與數位治理等議題，分析科技在權力結構與社會治理中的政治意涵
-          icon: balance-scale
+        - name: 自然語言處理與大型語言模型
+          description: 研究大型語言模型、智能體與自然語言處理方法，關注模型如何理解、生成並參與複雜的社會互動
+          icon: brain
           icon_pack: fas
-        - name: 國家發展與大陸研究
-          description: 專注於中國大陸政治發展、治理體制與政策變遷研究，關注國家建構、發展戰略與社會轉型議題，並從比較政治視角分析兩岸互動與區域發展動態
+        - name: 計算社會科學
+          description: 結合社會科學問題意識、計算方法與社會模擬，分析數位平台、公共治理與群體行為
           icon: globe
           icon_pack: fas
-        - name: 人工智慧應用與數位研究方法
-          description: 關注生成式 AI、自然語言處理與資料視覺化在社會科學研究中的應用，具備運用開源模型與工具設計研究流程的實務經驗
-          icon: brain
+        - name: 以人為本的人工智慧
+          description: 為研究與知識工作打造可信、以人為中心的 AI 工具，重視人的學術判斷、來源查核與研究倫理
+          icon: balance-scale
           icon_pack: fas
     design:
       columns: 1

@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: '蔣濤（Dylan Chiang）的個人學術網站 - 專注於音樂學和國家發展研究'
-    twitter: ''
+    description: '蔣濤（Dylan Chiang）的個人學術網站，研究自然語言處理、大型語言模型、計算社會科學與以人為本的人工智慧。'
+    twitter: 'DylanChiangAI'
   analytics:
     google_analytics: ''
     baidu_tongji: ''

@@ -20,6 +20,13 @@
 
 ## Latest Entries
 
+### 2026-07-28 17:30 CST Fudan PhD profile update
+
+- Updated the academic profile to reflect Dylan's 智能科學與技術 PhD study at the School of Data Science, Fudan University, and affiliation with the Data Intelligence and Social Computing Lab (Fudan DISC).
+- Aligned the biography, education, research interests, homepage research summary, and skills with the public GitHub profile: NLP, LLMs, computational social science, and human-centered AI.
+- Replaced placeholder LinkedIn and Google Scholar links with verified GitHub and X profiles.
+- Corrected the production base URL and replaced the stale SEO description with the current research profile.
+
 ### 2026-06-02 20:15 CST Local Development Environment Fixes & GitHub Actions Restore
 
 - **GitHub Pages Deployment**: Confirmed that the website is deployed via GitHub Pages (GitHub Actions `deploy.yml`), not Cloudflare Pages. Restored the `.github/workflows/deploy.yml` file.
