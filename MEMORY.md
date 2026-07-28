@@ -20,6 +20,12 @@
 
 ## Latest Entries
 
+### 2026-07-28 18:10 CST WeiShi project profile
+
+- Added 未識 WeiShi as the featured project for the sixth Yunnan-Taiwan University Student Innovation and Entrepreneurship Competition.
+- The public project page describes the local-first competition prototype, Dylan's product and technology contributions, and the consent-based AI-agent relationship exploration flow without exposing team titles or the private source repository.
+- Added the project to the homepage's featured project collection and reused the pitch deck's title, mechanism, and governance slides as project visuals.
+
 ### 2026-07-28 17:30 CST Fudan PhD profile update
 
 - Updated the academic profile to reflect Dylan's 智能科學與技術 PhD study at the School of Data Science, Fudan University, and affiliation with the Data Intelligence and Social Computing Lab (Fudan DISC).

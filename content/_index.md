@@ -44,6 +44,19 @@ sections:
         我的研究背景橫跨國家發展、公共管理與人工智慧採用。碩士論文以立法委員助理為研究對象，分析生成式 AI 的使用行為與接受度；目前則進一步探索面向研究與知識工作的 Human-centered AI，讓學術判斷、來源查核與研究倫理留在人類手中。
     design:
       columns: '1'
+  - block: collection
+    id: projects
+    content:
+      title: 近期項目
+      filters:
+        folders:
+          - project
+        featured_only: true
+      count: 3
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 1
   # - block: collection
   #   id: papers
   #   content:
