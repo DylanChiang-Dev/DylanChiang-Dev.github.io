@@ -1,0 +1,17 @@
+{{- $defaultHome := "/" -}}
+{{- $englishHome := "/en/" -}}
+{{- range hugo.Sites -}}
+  {{- if eq .Language.Lang "zh-tw" -}}
+    {{- $defaultHome = .Home.RelPermalink -}}
+  {{- else if eq .Language.Lang "en" -}}
+    {{- $englishHome = .Home.RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- $script := resources.Get "js/language-redirect.js" | minify | fingerprint -}}
+<script
+  src="{{ $script.RelPermalink }}"
+  integrity="{{ $script.Data.Integrity }}"
+  data-language-redirect
+  data-default-home="{{ $defaultHome }}"
+  data-english-home="{{ $englishHome }}"
+></script>

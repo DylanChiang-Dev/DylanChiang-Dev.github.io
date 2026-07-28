@@ -25,6 +25,7 @@
 - Added Hugo multilingual support with Traditional Chinese at the root and an English site at `/en/`; all current Markdown content now has a same-path English translation file.
 - English navigation, SEO metadata, footer copy, locale settings, and CV-block interface labels are maintained in language-specific configuration and `i18n/en.yaml`.
 - Added a local language-chooser override that uses Hugo language labels (`中文` and `English`) while retaining the theme's existing interaction.
+- First-time homepage visits use the browser's primary language: Chinese locales stay on `/`, while other locales enter `/en/`; a manual language choice is stored locally and takes precedence.
 - English project pages preserve the existing Chinese visual and PDF assets as original historical material.
 
 ### 2026-07-28 20:30 CST CAIADA leadership update
