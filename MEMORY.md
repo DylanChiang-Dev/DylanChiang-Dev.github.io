@@ -24,6 +24,7 @@
 
 - Added Dylan's current role as Chairperson of the Chinese AI Application Development Association (CAIADA) to the experience timeline and biography.
 - The entry reflects the association's public mission: AI technology exchange, industry collaboration, talent development, and cross-sector AI application promotion.
+- The Chinese Nationalist Party youth committee secretary-general role and Chiang clan association supervisor role remain current; their experience entries intentionally omit end dates.
 
 ### 2026-07-28 20:00 CST Open-source portfolio
 

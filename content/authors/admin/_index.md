@@ -83,7 +83,6 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2025-01-01
-    date_end: '2025-12-31'
     summary: |
       擔任中國國民黨青年工作委員會秘書長，負責青年事務規劃與執行。
   - position: 監事
@@ -91,7 +90,6 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2024-01-01
-    date_end: '2024-12-31'
     summary: |
       擔任監事職務，監督會務運作與財務管理，維護宗親會會員權益。
   - position: 助理研究員
