@@ -30,7 +30,7 @@
 
 - Added DC-WeMark, BOYA Skills, and DC Family Task Manager as featured portfolio projects.
 - Each project page documents Dylan's role, core innovations, technical architecture, live demo, and GitHub source.
-- Increased the homepage recent-project count from three to five so all current personal projects are visible.
+- Increased the homepage recent-project count from three to five so all current personal projects are visible, using a three-column desktop grid to keep the section compact and visually aligned with the rest of the homepage.
 
 ### 2026-07-28 19:00 CST Demo project cleanup
 
