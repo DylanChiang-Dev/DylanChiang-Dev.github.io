@@ -20,6 +20,11 @@
 
 ## Latest Entries
 
+### 2026-07-28 19:00 CST Demo project cleanup
+
+- Removed the Pandas, scikit-learn, and PyTorch starter-template examples because they were not Dylan's projects.
+- The project portfolio now contains only Dylan's own work and the research-project section.
+
 ### 2026-07-28 18:10 CST WeiShi project profile
 
 - Added 未識 WeiShi as the featured project for the sixth Yunnan-Taiwan University Student Innovation and Entrepreneurship Competition.
