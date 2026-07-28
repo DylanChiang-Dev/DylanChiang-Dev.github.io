@@ -20,6 +20,13 @@
 
 ## Latest Entries
 
+### 2026-07-28 21:30 CST English static site
+
+- Added Hugo multilingual support with Traditional Chinese at the root and an English site at `/en/`; all current Markdown content now has a same-path English translation file.
+- English navigation, SEO metadata, footer copy, locale settings, and CV-block interface labels are maintained in language-specific configuration and `i18n/en.yaml`.
+- Added a local language-chooser override that uses Hugo language labels (`中文` and `English`) while retaining the theme's existing interaction.
+- English project pages preserve the existing Chinese visual and PDF assets as original historical material.
+
 ### 2026-07-28 20:30 CST CAIADA leadership update
 
 - Added Dylan's current role as Chairperson of the Chinese AI Application Development Association (CAIADA) to the experience timeline and biography.

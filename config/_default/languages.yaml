@@ -4,7 +4,29 @@
 
 # Default language
 zh-tw:
-  languageCode: zh-tw
+  locale: zh-TW
+  label: 中文
+  weight: 1
   title: 蔣濤
   params:
     description: 蔣濤的個人學術網站
+    marketing:
+      seo:
+        description: '蔣濤（Dylan Chiang）的個人學術網站，研究自然語言處理、大型語言模型、計算社會科學與以人為本的人工智慧。'
+
+en:
+  locale: en-US
+  label: English
+  weight: 2
+  title: Dylan Chiang
+  params:
+    description: Dylan Chiang's academic website
+    marketing:
+      seo:
+        description: 'Dylan Chiang is a PhD candidate in Intelligent Science and Technology at the School of Data Science, Fudan University, working on NLP, large language models, computational social science, and human-centered AI.'
+    footer:
+      copyright:
+        notice: '© {year} Dylan Chiang. This work is licensed under {license}.'
+    locale:
+      date_format: 'Jan 2, 2006'
+      time_format: '3:04 PM'
