@@ -1,7 +1,7 @@
 ---
 title: "From technological innovation to cultural inheritance: the role of AIGC technology in rural revitalization and cultural tourism products"
 authors:
-- admin
+- Tao Chiang
 date: "2024-01-31T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).

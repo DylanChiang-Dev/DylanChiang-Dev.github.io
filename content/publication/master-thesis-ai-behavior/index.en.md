@@ -1,7 +1,7 @@
 ---
 title: "Research on the usage behavior of generative artificial intelligence: taking a legislative assistant as an example"
 authors:
-  - admin
+  - Tao Chiang
 date: '2024-12-01T00:00:00Z'
 doi: ''
 

@@ -1,7 +1,7 @@
 ---
 title: "Algorithmic power gap and potential dilemmas in rural revitalization: theoretical analysis and situational deduction"
 authors:
-- admin
+- Tao Chiang
 date: "2025-06-13T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
@@ -70,7 +70,7 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-**Author: Dylan Chiang**
+**Author: Tao Chiang**
 
 ## Summary
 
@@ -218,4 +218,4 @@ Through the above-mentioned empirical research, we can not only gain a deeper un
 5. Veale, M., Van Kleek, M., & Binns, R. (2018). Fairness and accountability design needs for algorithmic support in high-stakes public sector decision-making. In *Proceedings of the 2018 CHI conference on human factors in computing systems* (pp. 1-14).
 
 ---
-**[Author information]** Dylan Chiang, National Institute of Development and Mainland China, Chinese Culture University, Taiwan, email: 3331322@gmail.com
+**[Author information]** Tao Chiang, National Institute of Development and Mainland China, Chinese Culture University, Taiwan, email: 3331322@gmail.com

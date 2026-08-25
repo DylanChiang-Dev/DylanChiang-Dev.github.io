@@ -1,7 +1,7 @@
 ---
 title: "Collaborative innovation of cross-strait AI hardware in the face of technological blockade: Research on the cooperation model of Kinmen AI Computing Power Center"
 authors:
-  - admin
+  - Tao Chiang
 date: '2024-01-20T00:00:00Z'
 doi: ''
 

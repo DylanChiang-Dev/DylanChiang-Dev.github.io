@@ -1,7 +1,7 @@
 ---
 title: "Promoting Integration through Competition: Research on the Model and Path of Constructing Cross-Strait Youth AI Innovation Competition"
 authors:
-  - admin
+  - Tao Chiang
 publication_types:
   - "2"
 abstract: "This study aims to systematically study the models and paths of cross-strait youth AI competitions, and explore how to promote the in-depth integration of cross-strait youths through event design. The study proposed a trinity of \"promoting integration through competition\" conceptual model of \"topic guidance-collaboration and co-creation-value empowerment\", and designed a specific case for the \"Strait Youth AI Integration Innovation Competition\". The research provides a set of operational reference frameworks for government departments at all levels, universities and technology companies to design and organize cross-Strait youth AI competitions, which will help upgrade cross-Strait AI competitions from mere \"technical interaction\" to an effective \"integrated identity\" platform."
