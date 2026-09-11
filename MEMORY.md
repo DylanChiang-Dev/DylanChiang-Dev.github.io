@@ -13,10 +13,15 @@
 - Owner: `DylanChiang-Dev`
 - Repository: `DylanChiang-Dev.github.io`
 - Origin: `https://github.com/DylanChiang-Dev/DylanChiang-Dev.github.io`
-- Local path: `/Users/dc/Documents/github/DylanChiang-Dev/DylanChiang-Dev.github.io`
+- Local path: `/codex/002/个人网站维护/DylanChiang-Dev.github.io`
 - Main branch: `main`
 - Documentation standardized: 2026-05-18 02:30 CST
 - Deployment: Automated GitHub Pages build and deployment triggered directly by pushes to the `main` branch via GitHub Actions (`.github/workflows/deploy.yml`).
+
+## Deployment Boundary
+
+- 統一規則：本工作流唯一部署到 GitHub 的網站是 `DylanChiang-Dev.github.io`，使用 GitHub Actions + GitHub Pages；其他現役網站部署到 Cloudflare Pages／Workers，GitHub 僅保存原始碼或作為 Cloudflare 的建置來源，不是部署平台。
+- 本倉庫是唯一的 GitHub Pages 例外：由 GitHub Actions 建置並發布到 GitHub Pages。
 
 ## Latest Entries
 
