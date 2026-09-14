@@ -133,6 +133,12 @@ languages:
 # Only `title`, `awarder`, and `date` are required.
 # Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: "Bronze Award, Sixth Yunnan-Taiwan University Student Innovation and Entrepreneurship Competition: WeiShi"
+    date: '2026-07-21'
+    awarder: "Yunnan University, Mingchuan University"
+    icon: academic-cap
+    summary: |
+      Received a Bronze Award for the WeiShi project at the Sixth Yunnan-Taiwan University Student Innovation and Entrepreneurship Competition (第六屆雲台大學生雙創賽). Served as team lead and was primarily responsible for product and technology.
   - title: "Bronze Award, Fifth Yunnan-Taiwan University Student Innovation and Entrepreneurship Competition"
     date: '2025-09-01'
     awarder: "Yunnan University, Mingchuan University"

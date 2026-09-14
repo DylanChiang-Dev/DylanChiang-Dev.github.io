@@ -25,6 +25,11 @@
 
 ## Latest Entries
 
+### 2026-09-14 WeiShi competition award update
+
+- Added the Chinese and English award pages for the July 21, 2026 Bronze Award at the Sixth Yunnan-Taiwan University Student Innovation and Entrepreneurship Competition.
+- Updated the WeiShi project profile and author awards to record Dylan's team-lead role and primary responsibility for product and technology.
+
 ### 2026-09-14 Chuangzhi Frontier Workshop event
 
 - Added the Chinese and English event records at content/event/chuangzhi-frontier-workshop-20260911/.

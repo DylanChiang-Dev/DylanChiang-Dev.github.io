@@ -133,6 +133,12 @@ languages:
 # Only `title`, `awarder`, and `date` are required.
 # Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: 第六屆雲台大學生雙創賽銅獎（未識 WeiShi）
+    date: '2026-07-21'
+    awarder: 雲南大學、銘傳大學
+    icon: academic-cap
+    summary: |
+      以未識（WeiShi）項目獲得第六屆雲台大學生雙創賽銅獎，擔任團隊領隊，主要負責產品與技術。
   - title: 第五屆雲台大學生雙創賽銅獎
     date: '2025-09-01'
     awarder: 雲南大學、銘傳大學

@@ -13,14 +13,15 @@ tags:
 featured: true
 draft: false
 ---
-WeiShi is an AI relationship-exploration project developed for the Sixth Yunnan-Taiwan University Student Innovation and Entrepreneurship Competition (第六屆雲台大學生雙創賽). Its proposition is simple: AI avatars connect first, while people retain the final decision. The prototype turns an initial encounter from quick browsing and instant judgment into an AI-assisted process of mutual understanding.
+WeiShi is an AI relationship-exploration project developed for, and awarded a Bronze Award at, the Sixth Yunnan-Taiwan University Student Innovation and Entrepreneurship Competition (第六屆雲台大學生雙創賽). I served as team lead and used the proposition “AI avatars connect first, while people retain the final decision” to turn an initial encounter from quick browsing and instant judgment into an AI-assisted process of mutual understanding.
 
 <!--more-->
 
 ## What I am responsible for in the project
 
-I am mainly responsible for product and technology, transforming initial ideas into complete product prototypes that can be actually operated and displayed offline.
+I served as team lead and was mainly responsible for product and technology, transforming initial ideas into complete product prototypes that can be actually operated and displayed offline.
 
+- **Team Leadership**: Served as team lead, coordinating the integration of product, technology, governance research, and competition presentation.
 - **Product Definition**: Establish the core proposition of "knowing before seeing" and position AI as a medium for understanding before meeting, rather than a chatbot that makes relationship decisions for users.
 - **System Design**: Planning the complete process of avatar profile creation, Agent Plaza, weekly in-depth recommendations, pre-understanding reports and real-person takeover.
 - **Prototype Implementation**: Connect the main interactions and local status in series to complete a front-end product that can run offline on the competition computer.
