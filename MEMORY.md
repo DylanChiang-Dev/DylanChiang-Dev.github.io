@@ -25,6 +25,11 @@
 
 ## Latest Entries
 
+### 2026-09-14 Chuangzhi Frontier Workshop event
+
+- Added the Chinese and English event records at content/event/chuangzhi-frontier-workshop-20260911/.
+- The record documents participation in the September 11, 2026 workshop at the Shanghai Innovation Institute, including the program on generative agents and social intelligence.
+
 ### 2026-07-28 21:30 CST English static site
 
 - Added Hugo multilingual support with Traditional Chinese at the root and an English site at `/en/`; all current Markdown content now has a same-path English translation file.
