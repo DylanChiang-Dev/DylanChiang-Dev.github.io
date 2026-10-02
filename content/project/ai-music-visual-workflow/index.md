@@ -1,6 +1,6 @@
 ---
 title: "AI 協作音樂與視覺創作流程"
-summary: "AI 協作作曲、MIDI 與總譜整理、音色渲染、深度視差動畫及音畫合成；展示實際製作工作與經處理的少量譜面。"
+summary: "AI 協作作曲、MIDI 與總譜整理、音色渲染、深度視差動畫及音畫合成；展示實際製作工作與創作者提供的局部素材。"
 date: 2026-10-02
 authors:
   - admin
@@ -12,10 +12,10 @@ tags:
 featured: true
 draft: false
 image:
-  filename: score-process-excerpt.png
+  filename: visual-production-still.png
   preview_only: true
-  alt_text: "AI 協作音樂製作的局部譜面，已裁切並模糊細節。"
-  caption: "製作階段的局部譜面示例，經裁切與模糊處理。"
+  alt_text: "AI 協作視覺製作畫面：人物坐在窗邊，室內暖光與窗外夜景形成對照。"
+  caption: "創作者提供的局部視覺製作畫面。"
 ---
 
 ## 實作概述
@@ -65,8 +65,10 @@ image:
 
 ## 製作流程與局部示例
 
-{{< figure src="workflow.svg" alt="通用 AI 協作製作流程：創作方向、音樂判斷、可編輯材料、渲染與試聽、視覺整合、修訂與檢核。" caption="通用製作流程示意，與下方經處理的實際譜面片段分開呈現。" >}}
+{{< figure src="workflow.svg" alt="通用 AI 協作製作流程：創作方向、音樂判斷、可編輯材料、渲染與試聽、視覺整合、修訂與檢核。" caption="通用製作流程示意；下方圖片由創作者提供，用於展示局部製作內容。" >}}
 
-{{< figure src="score-process-excerpt.png" alt="製作階段總譜的兩小節、兩個聲部局部影像；不含題名、作者或頁碼，音符細節已模糊。" caption="總譜整理片段：僅保留兩小節、兩個聲部；已裁去題名、身分及頁面上下文，並模糊細節。這是製作階段的局部示例，不是完整總譜或最終音軌的逐音對照。" >}}
+{{< figure src="visual-production-still.png" link="/project/ai-music-visual-workflow/visual-production-still.png" target="_blank" alt="創作者提供的視覺製作畫面：人物、窗邊暖光、夜景及畫面文字的組合。" caption="視覺製作示例：創作者指定展示的局部畫面，保留原圖內容；點擊可查看原尺寸。" >}}
 
-本頁展示實際製作工作與經處理的少量片段，不公開作品名稱、故事、完整音樂、完整總譜或成片，也不提供原作及可編輯音樂檔案下載。
+{{< figure src="notation-production-excerpt.png" link="/project/ai-music-visual-workflow/notation-production-excerpt.png" target="_blank" alt="創作者提供的清晰總譜片段，呈現多個樂器聲部、音符、力度及奏法記號。" caption="總譜整理示例：使用創作者提供的清晰片段，不另行裁切或模糊；點擊可查看原尺寸。這是局部譜面，不是整份總譜或最終音軌的逐音對照。" >}}
+
+本頁展示製作流程與創作者指定的局部圖片，不公開作品名稱、完整音樂、完整總譜或成片，也不提供完整作品及可編輯音樂檔案下載。

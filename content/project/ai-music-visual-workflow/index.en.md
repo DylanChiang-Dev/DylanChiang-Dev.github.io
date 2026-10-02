@@ -1,6 +1,6 @@
 ---
 title: "AI-Assisted Music and Visual Production Workflow"
-summary: "AI-assisted composition, MIDI and score preparation, instrument rendering, depth-parallax animation, and audiovisual assembly, with production details and a small processed notation excerpt."
+summary: "AI-assisted composition, MIDI and score preparation, instrument rendering, depth-parallax animation, and audiovisual assembly, with production details and selected images supplied by the creator."
 date: 2026-10-02
 authors:
   - admin
@@ -12,10 +12,10 @@ tags:
 featured: true
 draft: false
 image:
-  filename: score-process-excerpt.png
+  filename: visual-production-still.png
   preview_only: true
-  alt_text: "A cropped notation excerpt from AI-assisted music production, with details blurred."
-  caption: "A cropped and blurred production-stage notation example."
+  alt_text: "An AI-assisted visual-production still showing a character by a window, with warm interior light contrasted against the night outside."
+  caption: "A selected visual-production still supplied by the creator."
 ---
 
 ## Practice overview
@@ -65,8 +65,10 @@ FFmpeg combined H.264 video at 1920×1080 and 30 fps with 48 kHz stereo AAC audi
 
 ## Workflow and limited excerpt
 
-{{< figure src="workflow.en.svg" alt="A generic AI-assisted production workflow: creative direction, musical judgment, editable materials, rendering and listening, visual integration, and revision and checks." caption="A generic workflow illustration, separate from the processed excerpt of actual notation below." >}}
+{{< figure src="workflow.en.svg" alt="A generic AI-assisted production workflow: creative direction, musical judgment, editable materials, rendering and listening, visual integration, and revision and checks." caption="A generic workflow illustration. The images below were supplied by the creator to show selected production material." >}}
 
-{{< figure src="score-process-excerpt.png" alt="A cropped production-stage score excerpt showing two measures of two parts, without a title, author, or page number; note details are blurred." caption="Score-preparation excerpt: two measures and two parts only, cropped to remove the title, identity, and page context, with details blurred. This production-stage sample is neither a complete score nor a note-by-note transcription of the final audio." >}}
+{{< figure src="visual-production-still.png" link="/project/ai-music-visual-workflow/visual-production-still.png" target="_blank" alt="A creator-supplied visual-production still combining a character, warm window-side lighting, a night scene, and on-screen text." caption="Visual-production example: a selected frame supplied by the creator, with its original image content retained. Click to view at full size." >}}
 
-This page presents actual production work and a small processed excerpt. It does not disclose the work's title, story, full music, complete score, or finished video, and offers no downloads of the original work or editable music files.
+{{< figure src="notation-production-excerpt.png" link="/project/ai-music-visual-workflow/notation-production-excerpt.png" target="_blank" alt="A clear score excerpt supplied by the creator, showing multiple instrument parts, notes, dynamics, and articulation markings." caption="Score-preparation example: the clear excerpt supplied by the creator, without additional cropping or blur. Click to view at full size. This is a limited score fragment, not a complete score or a note-by-note transcription of the final audio." >}}
+
+This page presents the production workflow and selected images approved by the creator. It does not disclose the work's title, full music, complete score, or finished video, and offers no downloads of the complete work or editable music files.
