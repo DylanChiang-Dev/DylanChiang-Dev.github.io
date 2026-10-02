@@ -1,6 +1,6 @@
 ---
 title: "AI-Assisted Music and Visual Production Workflow"
-summary: "AI-assisted composition, MIDI and score preparation, instrument rendering, depth-parallax animation, and audiovisual assembly, with production details and selected images supplied by the creator."
+summary: "Integrating Pi Agent-assisted composition, MIDI/MusicXML, MuseSounds listening renders, Suno mastering, GPT Image, and WebGL animation through concrete musical revisions and audiovisual production."
 date: 2026-10-02
 authors:
   - admin
@@ -20,48 +20,51 @@ image:
 
 ## Practice overview
 
-This practice connects AI-assisted composition, electronic scores, performance rendering, image generation, and programmatic animation. My work covered creative direction, musical and visual choices, audiovisual revision, workflow integration, and output checks. Rather than simply combining finished music and images, the workflow first establishes editable notes and a timeline, then handles performance, visuals, and post-production separately.
+In this personal creative project, I set the musical and visual direction and used AI collaboration to produce composition code, note data, electronic scores, and character and scene assets. I revised them through listening and viewing, from melody, harmony, and orchestration choices to rendering, mastering, depth-parallax animation, and audiovisual assembly. AI assisted generation and implementation; I made creative decisions, directed changes, and selected versions.
 
 <!--more-->
 
 ## What I worked on
 
-### 1. Composition planning and multitrack musical data
+### 1. Composing with Pi Agent and building editable musical data
 
-I used large language models to assist with melody, harmony, form, orchestration, and composition code, then evaluated proposals and directed revisions through listening. The code organizes notes as multitrack MIDI and exports sections, measures, and onset information for notation and visual production.
+- **Planning and selection**: Through the Pi Agent coding agent, I used Anthropic Claude Opus 5.5 (`claude-opus-5-5`) to collaborate on melody, harmony, form, orchestration, and composition code. Listening guided my choices and revision requests.
+- **Composition code and timeline**: AI-assisted code organized notes into multitrack MIDI and exported sections, measures, and onsets as structured data shared by notation, performance rendering, and animation.
+- **Note-level revision**: Changes to timbre, figures, harmony, and voice arrangement were fed back into note data and notation, not confined to audio post-production. Language-model collaboration here was not one-click generation of a complete finished audio track.
 
-Revisions address notes, orchestration, dynamics, and articulation separately instead of regenerating an entire audio track each time. I compare voices and timbres, adjust entrances, figures, or transitions, and feed those decisions back into the note data.
+### 2. Preparing the score and comparing orchestral listening renders
 
-### 2. Electronic scores and performance rendering
+- **Score preparation**: The same note source generated MusicXML. I used MuseScore Studio 4.7.5 to organize parts, dynamics, articulation, and layout, with checks of measures, notes, and parts against MIDI.
+- **Performance rendering**: Listening tests used MuseSounds, managed through MuseSounds Manager 2.2.1.953, for orchestral parts and Salamander Grand Piano V3 for piano.
+- **Comparison and adjustment**: Codex (GPT-6) assisted timbre comparisons and checks of rendering and mixing, with Python and FFmpeg for audio processing. I evaluated quiet textures, legato transitions, articulation mapping, and balance, then directed specific changes.
 
-I converted note data to MusicXML and used MuseScore Studio to organize parts, instrument names, dynamics, articulations, and page layout. MIDI and notation share the same note source, with consistency checks across parts, measures, and notes.
+### 3. Re-rendering and mastering the final audio in Suno Studio
 
-During listening tests, MuseSounds rendered orchestral parts, while Salamander Grand Piano V3 supported piano comparisons. Checks addressed whether articulations actually sounded as intended, sustained notes ended prematurely, and parts connected and balanced naturally. Python and FFmpeg supported rendering, audio processing, and comparisons.
+I used Suno Studio's v6 model to re-render the full track, add reverb for spatial depth, and complete mastering. MuseSounds supported orchestration decisions during composition and listening; Suno handled the final audio stage. They are distinct steps.
 
-### 3. Audio post-production and separation of stages
+After selecting the final track, I replaced the audio in the chosen video while retaining the existing imagery. Notation-data consistency and a note-by-note comparison with final audio are different checks; this account does not use the former as evidence of the latter.
 
-Editable notation and instrument rendering first supported orchestration decisions. I then used Suno Studio for final-track re-rendering, reverb, and mastering, making listening-based choices about timbre, space, and sectional dynamics.
+### 4. Producing character and scene assets, depth parallax, and local animation
 
-Composition data, listening renders, and the final audio track are separate stages. Checking notation data does not establish a note-by-note match with the final audio. The production account retains these distinctions instead of treating all audio work as a single model-generated result.
+- **Image assets**: I used GPT Image for character references, scenes, portraits, and blinking assets, with GPT-6 Sol organizing prompts and tool calls. The text model and image tool had separate roles.
+- **Depth and camera movement**: Depth Anything V2 Small estimated scene depth; WebGL layer compositing and parallax added foreground–background separation and camera movement rather than only effects on a static image.
+- **Frame-by-frame motion**: Code handled window lights, light trails outside train windows, small character movements and blinking, snow, sky lanterns, and fireworks.
+- **Prototypes and selection**: I compared Stable Diffusion 1.5 with LCM-LoRA watercolor assets, p5.brush frame-by-frame drawing, and three.js 3D scenes. The selected approach combined generated images, depth parallax, and local animation; the 3D prototype was not used in the final version.
 
-### 4. Image generation and depth-parallax animation
+### 5. Scheduling visuals from note events and assembling the video
 
-GPT Image produced character references, scenes, and local character assets, with prompts organized for different shots. Depth Anything V2 Small estimated scene depth; WebGL layer compositing and parallax then enabled camera movement and relative foreground–background motion.
+I used sections, measures, and onsets from the composition timeline to schedule lighting and other visual events, connecting melody and glockenspiel attacks to lighting changes and placing climactic visual events in the corresponding musical section. I also revised subtitles, on-screen dialogue, and camera pacing through viewing. The production note timeline and final audio replacement were recorded separately.
 
-Code handled local motion frame by frame, including small character movements, blinking, brightness changes, and environmental animation. I also compared Stable Diffusion/LCM-LoRA, p5.brush, and three.js approaches. The selected route combined generated imagery with depth parallax and local animation, rather than using the 3D prototype as the final version.
+FFmpeg assembled **1920×1080, 30 fps H.264 video** and **48 kHz stereo AAC audio** into MP4. Checks covered complete decoding and file consistency before and after audio replacement.
 
-### 5. Audiovisual timing and video output
+### 6. Six specific creative revisions I made
 
-Sections, measures, and note onsets guided visual events, followed by adjustments to camera, subtitle, and animation pacing. The note-event timeline provides a production-time reference; final audio replacement and assembly are separate steps, not the same verification task.
-
-FFmpeg combined H.264 video at 1920×1080 and 30 fps with 48 kHz stereo AAC audio. Output checks covered complete decoding, with comparison records retained for audio replacement.
-
-### 6. Translating audiovisual issues into concrete revisions
-
-- **Timbre and entrances**: When a quiet instrument texture obscured another part, I revised entry order and dynamics instead of simply raising the overall level.
-- **Decay and musical figures**: I addressed interval clashes caused by long soft-mallet decay through changes to note density and selection.
-- **Notation and articulation mapping**: I distinguished note-content issues from how a renderer interprets glissando or legato markings before choosing which layer to revise.
-- **Animation and shot continuity**: I checked motion direction, local actions, and clipping, removed unnatural effects, and revised visual pacing.
+1. **Reordered instrumental entrances in the introduction**: Noise in quiet strings obscured the piano, so I revised entry order and dynamics to leave space at the opening and build texture gradually.
+2. **Moved the transition melody to English horn**: The solo cello sounded too heavy. I selected English horn instead, extended the note before the climax, and adjusted the diminuendo to improve the transition.
+3. **Rewrote glockenspiel figures and ending articulations**: Soft-mallet decay clashed with subsequent notes. I directed slower figures and more stable chord tones, and removed unnatural ending glissandi while retaining legato.
+4. **Corrected visual movement**: I added depth parallax, camera motion, and small character actions to static-looking scenes, and unified the direction of light trails outside train windows for continuity.
+5. **Removed unnatural effects**: I rejected the 3D prototype, removed scarf motion that clipped through the character, reduced blinking, and revised on-screen dialogue to four lines with adjusted display durations.
+6. **Updated the final sound without remaking the visuals**: I selected the Suno Studio re-rendered and mastered track, replaced the audio while retaining the chosen imagery, and kept music and image versions separate.
 
 ## Workflow and limited excerpt
 
