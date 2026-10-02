@@ -12,10 +12,10 @@ tags:
 featured: true
 draft: false
 image:
-  filename: notation-workflow-illustration.png
+  filename: visual-concept-illustration.png
   preview_only: true
-  alt_text: "An independently drawn notation-workflow illustration showing invented notes, parts, and dynamics, without original musical data."
-  caption: "A notation-workflow illustration, not the original score or finished imagery."
+  alt_text: "An independently generated visual illustration showing a person in a blue sweater in a warmly lit studio overlooking a city at dusk."
+  caption: "A separately AI-generated concept illustration, not an original character or video frame."
 ---
 
 ## Practice overview
@@ -67,6 +67,8 @@ FFmpeg assembled **1920×1080, 30 fps H.264 video** and **48 kHz stereo AAC audi
 6. **Updated the final sound without remaking the visuals**: I selected the Suno Studio re-rendered and mastered track, replaced the audio while retaining the chosen imagery, and kept music and image versions separate.
 
 ## Workflow and limited excerpt
+
+{{< figure src="visual-concept-illustration.png" alt="An independently AI-generated illustration of a warm studio and an evening city, with a different character, clothing, and composition and no original subtitles." caption="Visual-method illustration: generated separately with AI, sharing only a warm-interior and evening-city mood. This is not an original screenshot, character reference, or finished video asset." >}}
 
 {{< figure src="workflow.en.svg" alt="A generic AI-assisted production workflow: creative direction, musical judgment, editable materials, rendering and listening, visual integration, and revision and checks." caption="A generic production-workflow illustration, without original assets." >}}
 

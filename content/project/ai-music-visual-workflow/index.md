@@ -12,10 +12,10 @@ tags:
 featured: true
 draft: false
 image:
-  filename: notation-workflow-illustration.png
+  filename: visual-concept-illustration.png
   preview_only: true
-  alt_text: "獨立繪製的譜面製作示意圖，展示虛構音符、聲部與力度配置，不含原作音樂資料。"
-  caption: "譜面製作示意，非原作總譜或成品畫面。"
+  alt_text: "獨立生成的視覺示意圖：藍色上衣的人物坐在暖光工作室，望向窗外黃昏城市。"
+  caption: "另行 AI 生成的概念示意，非原作角色或影片影格。"
 ---
 
 ## 實作概述
@@ -67,6 +67,8 @@ image:
 6. **更新最終音響而不重做畫面**：採用 Suno Studio 重新渲染與母帶處理後的音軌，沿用已選定的影像完成替換，分別保留音樂與影像的版本記錄。
 
 ## 製作流程與局部示例
+
+{{< figure src="visual-concept-illustration.png" alt="獨立 AI 生成的暖光工作室與城市夜景示意，人物、服裝、構圖與原作不同，沒有原作字幕。" caption="視覺方法示意：另行使用 AI 生成，僅借用暖光與夜景的氛圍方向，不是原作截圖、角色設定或影片成果。" >}}
 
 {{< figure src="workflow.svg" alt="通用 AI 協作製作流程：創作方向、音樂判斷、可編輯材料、渲染與試聽、視覺整合、修訂與檢核。" caption="通用製作流程示意，不含原作素材。" >}}
 
