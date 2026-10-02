@@ -12,10 +12,10 @@ tags:
 featured: true
 draft: false
 image:
-  filename: visual-production-still.png
+  filename: notation-workflow-illustration.png
   preview_only: true
-  alt_text: "AI 協作視覺製作畫面：人物坐在窗邊，室內暖光與窗外夜景形成對照。"
-  caption: "創作者提供的局部視覺製作畫面。"
+  alt_text: "獨立繪製的譜面製作示意圖，展示虛構音符、聲部與力度配置，不含原作音樂資料。"
+  caption: "譜面製作示意，非原作總譜或成品畫面。"
 ---
 
 ## 實作概述
@@ -68,10 +68,8 @@ image:
 
 ## 製作流程與局部示例
 
-{{< figure src="workflow.svg" alt="通用 AI 協作製作流程：創作方向、音樂判斷、可編輯材料、渲染與試聽、視覺整合、修訂與檢核。" caption="通用製作流程示意；下方圖片由創作者提供，用於展示局部製作內容。" >}}
+{{< figure src="workflow.svg" alt="通用 AI 協作製作流程：創作方向、音樂判斷、可編輯材料、渲染與試聽、視覺整合、修訂與檢核。" caption="通用製作流程示意，不含原作素材。" >}}
 
-{{< figure src="visual-production-still.png" link="/project/ai-music-visual-workflow/visual-production-still.png" target="_blank" alt="創作者提供的視覺製作畫面：人物、窗邊暖光、夜景及畫面文字的組合。" caption="視覺製作示例：創作者指定展示的局部畫面，保留原圖內容；點擊可查看原尺寸。" >}}
+{{< figure src="notation-workflow-illustration.png" alt="獨立繪製的譜面示意，包含三個示意聲部、虛構音符及力度，不使用原作旋律。" caption="譜面製作方法示意：音符與配置皆獨立設計，不是原作節錄、實際總譜或最終音軌的轉譜。" >}}
 
-{{< figure src="notation-production-excerpt.png" link="/project/ai-music-visual-workflow/notation-production-excerpt.png" target="_blank" alt="創作者提供的清晰總譜片段，呈現多個樂器聲部、音符、力度及奏法記號。" caption="總譜整理示例：使用創作者提供的清晰片段，不另行裁切或模糊；點擊可查看原尺寸。這是局部譜面，不是整份總譜或最終音軌的逐音對照。" >}}
-
-本頁展示製作流程與創作者指定的局部圖片，不公開作品名稱、完整音樂、完整總譜或成片，也不提供完整作品及可編輯音樂檔案下載。
+本頁僅展示製作工作與獨立示意圖，不公開作品名稱、原作譜面片段、原始圖像、完整音樂或影片，也不提供作品及可編輯音樂檔案下載。
