@@ -25,6 +25,28 @@
 
 ## Latest Entries
 
+### 2026-10-02 LegalWorld 提交授權
+
+- 使用者明確要求提交，授權將本次 LegalWorld 中英文專案頁、兩張介面截圖、雙語首頁、論文關聯與協作記錄提交並推送至 `origin/main`。
+- 推送 `main` 會觸發既有 GitHub Pages 自動建置與發布；不另行手動部署或修改部署設定。先前「未提交、推送或部署」條目為各編輯階段結束時的歷史狀態。
+
+### 2026-10-02 LegalWorld 個人貢獻與介面展示
+
+- 使用者確認：主要負責前端建置與互動體驗，並同意納入人工評測與資料支援、展示影片及聯調部署工作；中英文頁面同步更新，不新增主導論文、資料集或 LongJud-Bench 設計的主張。
+- 保留共同作者（第三作者，Tao Chiang）署名，以具體工作範圍取代重複的非主導者聲明；首頁仍保留六項專案與既有論文關聯。
+- 從 `/codex/002/法律AI小镇/DC-simlaw-town-frontend/docs/screenshots/` 複製兩張圖片，來源保留不變：`01-live-simulation.png` → `content/project/legalworld/featured.png`（SHA-256：`c9ae36bcea1f5e69a102752aea09c46b99c730f96a428ec6d2fb33846a919724`）；`04-court-workbench.png` → `content/project/legalworld/court-workbench.png`（SHA-256：`e108dc15664ba8e41f4d43ffb4833a5c3373d782f3255bd6877692330939407a`）。來源與目標雜湊一致。
+- 圖片附雙語替代文字與圖說，標為早期版本演示；封面僅用於列表預覽，正文在介面展示區呈現，避免重複顯示。未重新生成圖片或嵌入影片。
+- 資源區補入線上系統 `http://www.fudan-disc.com/legalworld/` 與官方公開程式碼 `https://github.com/sii-research/Legal-world`；不公開私人倉庫、評測者資料或內部部署資訊。
+- Hugo Extended 0.148.2 正式建置、雙語頁面順序、兩張圖片／圖說／替代文字、首頁六項專案與封面、論文雙向連結及 `git diff --check` 均通過；僅有既存碩士論文連結欄位的棄用警告。
+- 僅更新本機內容與維護記錄，未提交、推送或部署。
+
+### 2026-10-02 LegalWorld 合作研究專案
+
+- 新增 LegalWorld 中英文專案頁，明確標示 Tao Chiang 為共同作者（第三作者），並非專案主導者；不推定尚未確認的個人工作分工。
+- 首頁「近期項目」中英文顯示數量由五項增為六項，保留原有專案；LegalWorld 論文頁同步關聯專案。
+- Hugo Extended 0.148.2 正式建置通過，已檢查中英文首頁六張專案卡片、作者角色文字與論文／專案雙向連結；僅有既存碩士論文連結欄位的棄用警告。
+- 本次僅更新本機內容；未提交、推送或部署。
+
 ### 2026-09-14 WeiShi competition award update
 
 - Added the Chinese and English award pages for the July 21, 2026 Bronze Award at the Sixth Yunnan-Taiwan University Student Innovation and Entrepreneurship Competition.

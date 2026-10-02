@@ -46,7 +46,8 @@ links:
     id: 2606.18728
 
 # Associated Projects (optional).
-projects: []
+projects:
+  - legalworld
 
 # Slides (optional).
 slides: ""
