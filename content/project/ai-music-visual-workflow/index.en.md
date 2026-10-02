@@ -11,6 +11,11 @@ tags:
   - Creative Tools
 featured: true
 draft: false
+image:
+  filename: score-process-excerpt.png
+  preview_only: true
+  alt_text: "A cropped notation excerpt from AI-assisted music production, with details blurred."
+  caption: "A cropped and blurred production-stage notation example."
 ---
 
 ## Practice overview

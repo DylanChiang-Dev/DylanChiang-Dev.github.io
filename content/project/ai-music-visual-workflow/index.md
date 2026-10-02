@@ -11,6 +11,11 @@ tags:
   - 創作工具
 featured: true
 draft: false
+image:
+  filename: score-process-excerpt.png
+  preview_only: true
+  alt_text: "AI 協作音樂製作的局部譜面，已裁切並模糊細節。"
+  caption: "製作階段的局部譜面示例，經裁切與模糊處理。"
 ---
 
 ## 實作概述
