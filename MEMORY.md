@@ -25,6 +25,15 @@
 
 ## Latest Entries
 
+### 2026-10-03 四項開源專案與完整專案列表
+
+- 使用者同意新增先前建議的四項公開專案並要求圖片及部署。新增 InkRelay、Generative Agents 法律 RAG 擴充、ShellMate、Quotabase-Lite 的中英文頁面，按 GitHub 公開 README 寫具體工作、來源與實作邊界；不修改來源倉庫。
+- 每項各有一張獨立繪製的 1600×900 工作流／架構 PNG，首頁與列表封面使用明確 `image.filename`，正文有雙語替代文字與圖說；標為示意，不冒稱真實介面或測試截圖。未呼叫付費生圖、公開真實主機／客戶資料或匯入私人原作。
+- 首頁改為「精選項目／Selected projects」：保留原七項，新增 InkRelay 與研究復現案例，共九項（三欄三列）；ShellMate 與 Quotabase 置於完整專案列表。新增 `/project/` 與 `/en/project/` 的雙語 landing collection，呈現全部十一項，首頁提供完整列表連結。
+- Generative Agents 明列 Stanford 原始框架來源，僅主張本人模型服務適配、三人場景、地圖設定與法律 RAG 擴充；InkRelay 明列是 Skill 而非固定渲染器；工程頁不複製未核驗的效能／安全認證／法律效力宣稱。新增日期為專案頁整理日期，不宣稱所有程式碼在此日完成。
+- 已完成源文字檢查、PNG 尺寸／CRC／解壓檢查、四張圖目視檢查、Hugo Extended 0.148.2 建置，以及雙語首頁九項／完整列表十一項、全部封面與正文圖片／圖說／原始框架連結檢查；僅有既存碩士論文連結欄位的棄用警告。
+- 依使用者部署要求與全域前端持續授權直接提交、推送，沿用既有 GitHub Pages 自動發布；不新增分析追蹤或更動部署設定。
+
 ### 2026-10-02 API 生成獨立視覺示意並接回首頁
 
 - 使用者明確同意 CLI／API 生圖備援。以 bundled `image_gen.py generate` 請求 `gpt-image-2`，僅一次實際生成呼叫、品質 high；未上傳任何原作圖片或譜面。現有憑證僅接入程序環境，不修改憑證或端點設定。

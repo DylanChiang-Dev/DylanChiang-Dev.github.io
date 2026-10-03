@@ -47,12 +47,13 @@ sections:
   - block: collection
     id: projects
     content:
-      title: "Recent projects"
+      title: "Selected projects"
+      text: "[View all projects and engineering work](/en/project/)"
       filters:
         folders:
           - project
         featured_only: true
-      count: 7
+      count: 9
     design:
       view: article-grid
       fill_image: false

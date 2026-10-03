@@ -47,12 +47,13 @@ sections:
   - block: collection
     id: projects
     content:
-      title: 近期項目
+      title: 精選項目
+      text: "[查看全部專案與工程實作](/project/)"
       filters:
         folders:
           - project
         featured_only: true
-      count: 7
+      count: 9
     design:
       view: article-grid
       fill_image: false
