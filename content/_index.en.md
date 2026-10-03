@@ -44,6 +44,7 @@ sections:
         My background spans national development, public administration, and AI adoption. My master's thesis examined generative-AI use and acceptance among legislative assistants. I now explore human-centered AI for research and knowledge work, keeping scholarly judgment, source verification, and research ethics in human hands.
     design:
       columns: '1'
+      css_class: homepage-content-width
   - block: collection
     id: projects
     content:
@@ -80,6 +81,7 @@ sections:
       count: 3
     design:
       view: citation
+      css_class: homepage-content-width
   - block: collection
     id: speaking
     content:
@@ -93,6 +95,7 @@ sections:
     design:
       view: card
       columns: 2
+      css_class: homepage-content-width
   - block: collection
     id: talks
     content:
@@ -104,6 +107,7 @@ sections:
     design:
       view: card
       columns: 1
+      css_class: homepage-content-width
   - block: collection
     id: news
     content:
@@ -130,6 +134,7 @@ sections:
     design:
       # Choose a layout view
       view: date-title-summary
+      css_class: homepage-content-width
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]

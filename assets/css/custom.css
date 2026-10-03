@@ -1,0 +1,37 @@
+/* 桌面首頁以專案網格的內容邊界對齊；手機與平板沿用主題原有排版。 */
+@media (min-width: 1024px) {
+  .homepage-content-width {
+    --project-frame-max: 1024px;
+    --project-inline-padding: 2rem;
+  }
+
+  .homepage-content-width.blox-markdown > .max-w-prose {
+    box-sizing: border-box;
+    width: calc(100% - 3rem);
+    max-width: var(--project-frame-max);
+    padding-inline: var(--project-inline-padding);
+  }
+
+  .homepage-content-width.blox-markdown .prose {
+    width: 100%;
+    max-width: none;
+  }
+
+  .homepage-content-width.blox-collection > .flex:not(.max-w-prose) > :first-child {
+    box-sizing: border-box;
+    width: calc(100% - 2 * var(--project-inline-padding));
+    max-width: calc(var(--project-frame-max) - 2 * var(--project-inline-padding));
+    padding-inline: 0;
+  }
+
+  .homepage-content-width.blox-collection .w-fit > .max-w-3xl {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .homepage-content-width {
+    --project-inline-padding: 1.25rem;
+  }
+}
