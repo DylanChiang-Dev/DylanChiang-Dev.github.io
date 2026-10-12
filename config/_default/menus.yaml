@@ -16,6 +16,9 @@ main:
   - name: 參會
     url: '/#talks'
     weight: 35
+  - name: 學術服務
+    url: '/#service'
+    weight: 37
   - name: 新聞
     url: '/#news'
     weight: 40

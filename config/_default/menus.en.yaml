@@ -12,6 +12,9 @@ main:
   - name: Conferences
     url: '/#talks'
     weight: 35
+  - name: Academic Service
+    url: '/#service'
+    weight: 37
   - name: News
     url: '/#news'
     weight: 40
