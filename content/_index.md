@@ -108,20 +108,17 @@ sections:
       view: card
       columns: 1
       css_class: homepage-content-width
-  - block: markdown
+  - block: collection
     id: service
     content:
       title: 學術服務
-      text: |-
-        ### SocioVerse Challenge 2026
-
-        **程序主席（Program Chair）｜2026**
-
-        面向人機協同與社會治理的 AI4SS 挑戰賽，涵蓋歷史重建與未來預測、反事實干預與效應評估，以及研究方法與系統創新三條賽道。
-
-        [賽事官網](https://socioverse.fudan-disc.com/challenge/)
+      filters:
+        folders:
+          - service
+      count: 3
     design:
-      columns: "1"
+      view: card
+      columns: 1
       css_class: homepage-content-width
   - block: collection
     id: news

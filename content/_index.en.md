@@ -108,20 +108,17 @@ sections:
       view: card
       columns: 1
       css_class: homepage-content-width
-  - block: markdown
+  - block: collection
     id: service
     content:
       title: "Academic Service"
-      text: |-
-        ### SocioVerse Challenge 2026
-
-        **Program Chair | 2026**
-
-        An AI4SS challenge on human–AI collaboration and social governance, with three tracks: Historical Reconstruction and Future Prediction, Counterfactual Intervention and Impact Assessment, and Methodological and Systems Innovation.
-
-        [Challenge website](https://socioverse.fudan-disc.com/challenge/)
+      filters:
+        folders:
+          - service
+      count: 3
     design:
-      columns: "1"
+      view: card
+      columns: 1
       css_class: homepage-content-width
   - block: collection
     id: news
