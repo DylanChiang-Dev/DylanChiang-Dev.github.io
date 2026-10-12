@@ -23,7 +23,7 @@ Built around SocioVerse2, the challenge has three tracks covering reconstruction
 
 {{< figure src="featured.webp" alt="Official Chinese-language SocioVerse Challenge 2026 poster showing the three tracks, participation options, original schedule, organizing members, and institutions." caption="Official SocioVerse Challenge 2026 poster, retained as originally published. The schedule and award information below reflect the updated challenge website." >}}
 
-[Open the high-resolution poster (2820 × 3988)](socioverse-challenge-2026-poster.png)
+[Open the high-resolution poster (2820 × 3988)](/service/socioverse-challenge-2026/socioverse-challenge-2026-poster.png)
 
 ## Research Agenda
 

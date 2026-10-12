@@ -23,7 +23,7 @@ draft: false
 
 {{< figure src="featured.webp" alt="SocioVerse Challenge 2026 官方海報，包含三條賽道、參賽方式、原始時程、組織成員與主辦單位。" caption="SocioVerse Challenge 2026 官方海報（原始宣傳版本）。圖面保留原貌；更新後的賽程與獎勵以下文及賽事官網為準。" >}}
 
-[查看高解析度海報（2820 × 3988）](socioverse-challenge-2026-poster.png)
+[查看高解析度海報（2820 × 3988）](/service/socioverse-challenge-2026/socioverse-challenge-2026-poster.png)
 
 ## 賽事要解決什麼問題？
 
